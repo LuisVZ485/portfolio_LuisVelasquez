@@ -8,8 +8,9 @@ In this portfolio you can see my projects and my abilities as a frontend develop
 - CSS
 - JavaScript
 
-[========]
+------------
 
-last update
+
+last update:
 
 2022-01-04 
