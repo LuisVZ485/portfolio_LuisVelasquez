@@ -121,6 +121,11 @@ header .right {
 header .left img{
     border:  15px solid #191B26;
     border-radius: 10px;
+    
+}
+
+header .left{
+    background-attachment: fixed;
 }
 
 header .left img {
