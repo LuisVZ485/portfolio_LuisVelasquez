@@ -99,3 +99,68 @@ nav .toggle-menu {
 	display: none;
 }
 /* NAVBAR */
+
+
+/* HEADER */
+header {
+	padding: 4rem 0;
+	background: var(--dark);
+}
+header .container {
+	display: flex;
+	grid-gap: 2rem;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	align-items: center;
+}
+header .left,
+header .right {
+	flex: 1 1 calc(769px / 2);
+}
+
+header .left img{
+    border:  15px solid #191B26;
+    border-radius: 10px;
+}
+
+header .left img {
+	width: 100%;
+}
+header .right h4 {
+	font-size: 1.25rem;
+	font-weight: 500;
+	color: var(--white);
+	margin-bottom: 1rem;
+}
+header .right h1 {
+	font-size: 3.5rem;
+	font-weight: 600;
+	color: var(--white);
+	margin-bottom: 2.25rem;
+}
+header .right .links {
+	display: flex;
+	grid-gap: 1rem;
+	align-items: center;
+}
+header .right .links .btn {
+	padding: 1rem 2rem;
+	font-weight: 500;
+	color: var(--white);
+	background: var(--green);
+	border-radius: 5px;
+	box-shadow: none;
+	transition: all .3s ease;
+}
+header .right .links .btn:hover {
+	box-shadow: 0 4px 24px var(--green);
+}
+header .right .links a:not(.btn) {
+	color: var(--white);
+	font-size: 1.25rem;
+	transition: all .3s ease;
+}
+header .right .links a:not(.btn):hover {
+	color: var(--green);
+}
+/* HEADER */
