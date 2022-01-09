@@ -1,4 +1,4 @@
-/*
+
 const toggleMenu = document.querySelector('nav .toggle-menu');
 const navMenu = document.querySelector('nav .nav-menu');
 
@@ -40,24 +40,24 @@ window.addEventListener('scroll', function () {
 		}
 	})
 })
-*/
-
-
-// 
 
 
 
+// button
 
-const toggleTheme1 = document.querySelector('nav');
 
 
-{
-toggleTheme1.addEventListener('click', () => {
-	
-	toggleTheme1.classList.toggle("black")
-	
+
+const toggleTheme1 = document.querySelector('#toggle-themej');
+const navcolor = document.querySelector('nav');
+const toggleIcon = document.querySelector('#toggle-icon');
+
+
+toggleTheme1.addEventListener('click' , function(){
+	navcolor.classList.toggle("black");
+	toggleIcon.classList.toggle("toggle-theme___icon");
+	toggleMenu.classList.toggle("toggle-menu")
 });
-}
 
 
 
