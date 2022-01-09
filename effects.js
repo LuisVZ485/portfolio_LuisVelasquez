@@ -1,3 +1,4 @@
+/*
 const toggleMenu = document.querySelector('nav .toggle-menu');
 const navMenu = document.querySelector('nav .nav-menu');
 
@@ -39,6 +40,24 @@ window.addEventListener('scroll', function () {
 		}
 	})
 })
+*/
+
+
+// 
+
+
+
+
+const toggleTheme1 = document.querySelector('nav');
+
+
+{
+toggleTheme1.addEventListener('click', () => {
+	
+	toggleTheme1.classList.toggle("black")
+	
+});
+}
 
 
 

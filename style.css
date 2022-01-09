@@ -49,6 +49,7 @@ nav {
 	position: sticky;
 	top: 0;
 	z-index: 999;
+
 }
 nav .container {
 	display: flex;
@@ -98,6 +99,26 @@ nav .toggle-menu {
 	font-size: 1.25rem;
 	display: none;
 }
+
+nav.black{
+	background: white;
+}
+
+
+
+
+
+.toggle-theme{
+	cursor: pointer;
+	margin-right: 20px;
+	padding: 20px;
+	background-color: #18ADA1;
+	margin-top: 10px;
+	
+	width: 100px;
+	border-radius: 4px;
+}
+
 
 
 
