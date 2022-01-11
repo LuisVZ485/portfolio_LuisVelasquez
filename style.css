@@ -110,7 +110,7 @@ nav .bx-menu {
 
 
 
-nav.black{
+nav.white{
 	background: white;
 }
 
@@ -464,7 +464,7 @@ footer p a:hover {
 	}
 	nav .bx-menu {
 		font-size: 1.25rem;
-		color: black;
+		color: white;
 	}
 	nav .nav-menu.show {
 		opacity: 1;

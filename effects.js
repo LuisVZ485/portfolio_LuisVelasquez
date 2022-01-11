@@ -52,9 +52,23 @@ const toggleIcon = document.querySelector('#toggle-icon');
 
 
 toggleTheme1.addEventListener('click' , function(){
-	navcolor.classList.toggle("black");
+	navcolor.classList.toggle("white");
 	toggleIcon.classList.toggle("toggle-theme___icon");
 	toggleMenu.classList.toggle("toggle-menu");
+});
+
+toggleTheme1.addEventListener('click' , function(){
+	
+	if(toggleIcon.classList.contains("bx-brightness-half"))
+	{
+		toggleIcon.classList.replace("bx-brightness-half", "bxs-brightness-half");
+	}
+	else
+	{
+		toggleIcon.classList.replace("bxs-brightness-half", "bx-brightness-half");
+	}
+	
+	
 });
 
 
