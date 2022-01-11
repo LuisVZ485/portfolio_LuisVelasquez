@@ -49,16 +49,19 @@ window.addEventListener('scroll', function () {
 const toggleTheme1 = document.querySelector('#toggle-themej');
 const navcolor = document.querySelector('nav');
 const toggleIcon = document.querySelector('#toggle-icon');
+const logoDev = document.querySelector('#logo-name');
 
 
 toggleTheme1.addEventListener('click' , function(){
 	navcolor.classList.toggle("white");
 	toggleIcon.classList.toggle("toggle-theme___icon");
-	toggleMenu.classList.toggle("toggle-menu");
+	
 });
 
 toggleTheme1.addEventListener('click' , function(){
 	
+	// LOGO BACKGROUNG
+
 	if(toggleIcon.classList.contains("bx-brightness-half"))
 	{
 		toggleIcon.classList.replace("bx-brightness-half", "bxs-brightness-half");
@@ -67,9 +70,36 @@ toggleTheme1.addEventListener('click' , function(){
 	{
 		toggleIcon.classList.replace("bxs-brightness-half", "bx-brightness-half");
 	}
+
 	
 	
 });
 
+toggleTheme1.addEventListener('click' , function(){
+	// LOGO NAME
+
+	if(logoDev.classList.contains("logo"))
+	{
+		logoDev.classList.replace("logo", "logoB");
+	}
+	else
+	{
+		logoDev.classList.replace ("logoB", "logo");
+	}
+});
+
+
+toggleTheme1.addEventListener('click' , function(){
+	// MENU
+
+	if(toggleMenu.classList.contains("toggle-menu"))
+	{
+		toggleMenu.classList.replace("toggle-menu", "toggle-menuB");
+	}
+	else
+	{
+		toggleMenu.classList.replace ("toggle-menuB", "toggle-menu");
+	}
+});
 
 

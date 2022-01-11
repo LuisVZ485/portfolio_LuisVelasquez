@@ -61,6 +61,13 @@ nav .logo {
 	color: var(--white);
 	margin-right: auto;
 }
+nav .logoB {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: black;
+	margin-right: auto;
+}
+
 nav .nav-menu {
 	display: flex;
 	grid-gap: 2rem;
@@ -100,6 +107,13 @@ nav .toggle-menu {
 	display: none;
 }
 
+nav .toggle-menuB {
+	cursor: pointer;
+	color: black;
+	font-size: 1.25rem;
+	
+}
+
 
 
 
@@ -120,7 +134,6 @@ nav.white{
 	cursor: pointer;
 	margin-right: 20px;
 	padding: 10px;
-
 	height: 38px;
 	width: 40px;
 	border-radius: 4px;
@@ -462,10 +475,22 @@ footer p a:hover {
 		visibility: hidden;
 		transition: all .3s ease;
 	}
-	nav .bx-menu {
+	
+	nav .toggle-menu {
+		cursor: pointer;
+		color: var(--white);
 		font-size: 1.25rem;
-		color: white;
+		
 	}
+	
+	nav .toggle-menuB {
+		cursor: pointer;
+		color: black;
+		font-size: 1.25rem;
+		
+	}
+
+	
 	nav .nav-menu.show {
 		opacity: 1;
 		visibility: visible;
