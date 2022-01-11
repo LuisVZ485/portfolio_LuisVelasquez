@@ -129,6 +129,8 @@ nav.black{
 .toggle-theme___icon{
 	color: #FFF;
 }
+/* NAVBAR */
+
 
 
 
@@ -197,7 +199,7 @@ header .right .links a:not(.btn) {
 header .right .links a:not(.btn):hover {
 	color: var(--green);
 }
-
+/* HEADER */
 
 
 /* SERVICES */
