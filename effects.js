@@ -43,9 +43,7 @@ window.addEventListener('scroll', function () {
 
 
 
-// button
-
-
+// BUTTONS, CHANGE OF COLOR
 
 
 const toggleTheme1 = document.querySelector('#toggle-themej');
