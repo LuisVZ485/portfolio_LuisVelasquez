@@ -56,7 +56,7 @@ const toggleIcon = document.querySelector('#toggle-icon');
 toggleTheme1.addEventListener('click' , function(){
 	navcolor.classList.toggle("black");
 	toggleIcon.classList.toggle("toggle-theme___icon");
-	toggleMenu.classList.toggle("toggle-menu")
+	toggleMenu.classList.toggle("toggle-menu");
 });
 
 
