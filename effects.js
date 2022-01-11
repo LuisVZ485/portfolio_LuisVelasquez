@@ -1,4 +1,5 @@
 
+// MENU
 const toggleMenu = document.querySelector('nav .toggle-menu');
 const navMenu = document.querySelector('nav .nav-menu');
 
@@ -58,9 +59,11 @@ toggleTheme1.addEventListener('click' , function(){
 	
 });
 
+// LOGO BACKGROUNG
+
 toggleTheme1.addEventListener('click' , function(){
 	
-	// LOGO BACKGROUNG
+	
 
 	if(toggleIcon.classList.contains("bx-brightness-half"))
 	{
@@ -75,8 +78,10 @@ toggleTheme1.addEventListener('click' , function(){
 	
 });
 
+// LOGO NAME
+
 toggleTheme1.addEventListener('click' , function(){
-	// LOGO NAME
+	
 
 	if(logoDev.classList.contains("logo"))
 	{
@@ -88,9 +93,10 @@ toggleTheme1.addEventListener('click' , function(){
 	}
 });
 
+// MENU
 
 toggleTheme1.addEventListener('click' , function(){
-	// MENU
+	
 
 	if(toggleMenu.classList.contains("toggle-menu"))
 	{
