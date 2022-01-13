@@ -288,6 +288,76 @@ header .right .links a:not(.btn):hover {
 #services .right .box a:hover {
 	grid-gap: .75rem;
 }
+
+.abilities{
+	width: 100%;
+	max-width: 600px;
+	padding: 0 20px;
+}
+
+.name__abilitie{
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 20px 0px;
+}
+
+.progress__bar{
+	height: 14px;
+	background: #444;
+	border-radius: 5px;
+}
+
+.porcentaje{
+	height: 14px;
+	background: slateblue;
+	border-radius: 5px;
+	position: relative;
+	animation: animation 2.5s 1;
+}
+
+.porcentaje::before {
+	content: attr(porcentaje);
+	position: absolute;
+	padding: 4px 6px;
+	background-color: #fffafa;
+	border-radius: 5px;
+	font-size: 12px;
+	top: -35px;
+	right: 0;
+	transform: translateX(50%);
+}
+
+.porcentaje::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #fffafa;
+	top: -16px;
+	right: 0;
+	transform: translateX(50%) rotate(45deg);
+}
+
+@keyframes animation {
+	0% {
+		width: 0;
+		background: var(--green);
+	}
+	20%{
+		background: #008b8b;
+	}
+	50%{
+		background: #dc143c;
+	}
+	
+	100%{
+		width: 100%;
+		background: #6a6acd;
+	}
+}
+
 /* SERVICES */
 
 
