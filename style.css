@@ -163,15 +163,15 @@ header .right {
 }
 
 header .left img{
-    border:  15px solid #191B26;
-    border-radius: 10px;
-    
+    box-shadow: 25px 10px 30px 0px #30B980;
+    border-radius: 15px;
+	margin-left: 100px;
 }
 
 
 
 header .left img {
-	width: 100%;
+	width: 50%;
 }
 header .right h4 {
 	font-size: 2.25rem;
@@ -505,6 +505,12 @@ footer p a:hover {
 	#contact h1 {
 		font-size: 1.5rem;
 	}
+
+	header .left img{
+		
+		margin: 80px;
+	}
+	
 }
 
 
@@ -517,5 +523,10 @@ footer p a:hover {
 	#portfolio .wrapper,
 	#services .right {
 		grid-template-columns: 1fr;
+	}
+
+	header .left img{
+		width: 150px;
+		margin: 80px;
 	}
 }
