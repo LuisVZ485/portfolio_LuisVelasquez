@@ -293,8 +293,16 @@ header .right .links a:not(.btn):hover {
 	width: 100%;
 	max-width: 600px;
 	padding: 0 20px;
+	background: var(--dark-d-1);
+	border-radius: 5px;	
+	padding: 1.5rem;
+	
 }
 
+.abilities h3{
+	color: var(--white);
+	
+}
 .name__abilitie{
 	font-size: 18px;
 	font-weight: 700;
