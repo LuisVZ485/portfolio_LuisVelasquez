@@ -166,9 +166,21 @@ header .left img{
     box-shadow: 25px 10px 30px 0px #30B980;
     border-radius: 15px;
 	margin-left: 100px;
+	animation: animationImg 2.5s 1;
 }
 
-
+@keyframes animationImg {
+	0% {
+		box-shadow: 25px 10px 30px 0px #354CF5;
+	}
+	50%{
+		box-shadow: 25px 10px 30px 0px #dc143c;
+	}
+	
+	100%{
+		box-shadow: 25px 10px 30px 0px #30B980;
+	}
+}
 
 header .left img {
 	width: 50%;
@@ -322,7 +334,7 @@ header .right .links a:not(.btn):hover {
 	background: slateblue;
 	border-radius: 5px;
 	position: relative;
-	animation: animation 2.5s 1;
+	animation: animation 4.5s 1;
 }
 
 .porcentaje::before {
