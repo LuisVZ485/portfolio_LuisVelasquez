@@ -100,6 +100,44 @@ nav .nav-menu li a:hover,
 nav .nav-menu li a.active {
 	color: var(--white);
 }
+
+/**/
+nav .nav-menu__white {
+	display: flex;
+	grid-gap: 2rem;
+	align-items: center;
+}
+nav .nav-menu__white li a {
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: #6A7274;
+	transition: all .3s ease;
+	font-size: .875rem;
+	font-weight: 500;
+}
+nav .nav-menu__white li a::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 4px;
+	background: transparent;
+}
+nav .nav-menu__white li a.active::before {
+	background: #1B5DB2;
+}
+nav .nav-menu__white li a:hover,
+nav .nav-menu__white li a.active {
+	color: #2E3334;
+}
+
+
+
+
 nav .toggle-menu {
 	cursor: pointer;
 	color: var(--white);

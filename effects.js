@@ -51,6 +51,7 @@ const toggleTheme1 = document.querySelector('#toggle-themej');
 const navcolor = document.querySelector('nav');
 const toggleIcon = document.querySelector('#toggle-icon');
 const logoDev = document.querySelector('#logo-name');
+const navMenuWhite = document.querySelector('.nav-menu');
 
 
 toggleTheme1.addEventListener('click' , function(){
@@ -105,6 +106,15 @@ toggleTheme1.addEventListener('click' , function(){
 	else
 	{
 		toggleMenu.classList.replace ("toggle-menuB", "toggle-menu");
+	}
+
+	if(navMenuWhite.classList.contains("nav-menu"))
+	{
+		navMenuWhite.classList.replace("nav-menu", "nav-menu__white");
+	}
+	else
+	{
+		navMenuWhite.classList.replace ("nav-menu__white", "nav-menu" );
 	}
 });
 
