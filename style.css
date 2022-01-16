@@ -624,6 +624,35 @@ footer p a:hover {
 	nav .nav-menu li a {
 		height: 2.5rem;
 	}
+
+	/*u list in white*/
+
+	nav .nav-menu__white {
+		position: absolute;
+		top: 100%;
+		width: 100%;
+		padding: 1.25rem;
+		background: var(--white);
+		left: 0;
+		flex-direction: column;
+		align-items: flex-start;
+		grid-gap: 0;
+		box-shadow: 0 4px 16px rgba(228, 228, 228, 0.932);
+		opacity: 0;
+		visibility: hidden;
+		transition: all .3s ease;
+	}
+
+	nav .nav-menu__white.show {
+		opacity: 1;
+		visibility: visible;
+	}
+	nav .nav-menu__white li a {
+		height: 2.5rem;
+	}
+
+
+
 	header .right h1 {
 		font-size: 2.5rem;
 	}
