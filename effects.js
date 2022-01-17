@@ -101,11 +101,11 @@ toggleTheme1.addEventListener('click' , function(){
 
 	if(toggleMenu.classList.contains("toggle-menu"))
 	{
-		toggleMenu.classList.replace("toggle-menu", "toggle-menuB");
+		toggleMenu.classList.replace("toggle-menu", "toggle-menu__white");
 	}
 	else
 	{
-		toggleMenu.classList.replace ("toggle-menuB", "toggle-menu");
+		toggleMenu.classList.replace ("toggle-menu__white", "toggle-menu");
 	}
 
 	if(navMenuWhite.classList.contains("nav-menu"))

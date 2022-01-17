@@ -146,9 +146,9 @@ nav .toggle-menu {
 	display: none;
 }
 
-nav .toggle-menuB {
+nav .toggle-menu__white {
 	cursor: pointer;
-	color: black;
+	color: #000;
 	font-size: 1.25rem;
 	
 }
@@ -587,6 +587,9 @@ footer p a:hover {
 	nav .toggle-menu {
 		display: block;
 	}
+	nav .toggle-menu__white {
+		display: block;
+	}
 	nav .nav-menu {
 		position: absolute;
 		top: 100%;
@@ -610,7 +613,7 @@ footer p a:hover {
 		
 	}
 	
-	nav .toggle-menuB {
+	nav .toggle-menu__white {
 		cursor: pointer;
 		color: black;
 		font-size: 1.25rem;
