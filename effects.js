@@ -86,11 +86,11 @@ toggleTheme1.addEventListener('click' , function(){
 
 	if(logoDev.classList.contains("logo"))
 	{
-		logoDev.classList.replace("logo", "logoB");
+		logoDev.classList.replace("logo", "logo-White");
 	}
 	else
 	{
-		logoDev.classList.replace ("logoB", "logo");
+		logoDev.classList.replace ("logo-White", "logo");
 	}
 });
 
