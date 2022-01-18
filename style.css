@@ -225,13 +225,13 @@ header .left img {
 	width: 50%;
 }
 header .right h4 {
-	font-size: 2.25rem;
+	font-size: 1.1rem;
 	font-weight: 500;
 	color: var(--white);
 	margin-bottom: 1rem;
 }
 header .right h1 {
-	font-size: 1.1rem;
+	font-size: 2.15rem;
 	font-weight: 600;
 	color: var(--white);
 	margin-bottom: 2.25rem;
