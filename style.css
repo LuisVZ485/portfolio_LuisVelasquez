@@ -494,6 +494,7 @@ header .right .links a:not(.btn):hover {
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 }
 #contact form input {
 	padding: .75rem 1rem;
@@ -502,6 +503,18 @@ header .right .links a:not(.btn):hover {
 	border: none;
 	width: 100%;
 	color: var(--white);
+	border-bottom: 3px solid var(--green);
+}
+#contact form textarea {
+	padding: .75rem 1rem;
+	background: var(--dark-d-2);
+	outline: none;
+	border: none;
+	border-bottom: 3px solid var(--green);
+	width: 100%;
+	color: var(--white);
+	resize: none;
+	margin-top: 10px;
 }
 #contact form button {
 	padding: .75rem 2rem;
@@ -511,6 +524,7 @@ header .right .links a:not(.btn):hover {
 	cursor: pointer;
 	border: none;
 	outline: none;
+	margin-top: 10px;
 }
 /* CONTACT */
 
