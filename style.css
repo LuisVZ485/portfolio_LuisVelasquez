@@ -505,6 +505,10 @@ header .right .links a:not(.btn):hover {
 	color: var(--white);
 	border-bottom: 3px solid var(--green);
 }
+#contact form input:focus{
+	border-bottom: 3px solid #057a4d;
+	background: #0f0f11;
+}
 #contact form textarea {
 	padding: .75rem 1rem;
 	background: var(--dark-d-2);
@@ -516,6 +520,10 @@ header .right .links a:not(.btn):hover {
 	resize: none;
 	margin-top: 10px;
 }
+#contact form textarea:focus{
+	border-bottom: 3px solid #057a4d;
+	background: #0f0f11;
+}
 #contact form button {
 	padding: .75rem 2rem;
 	background: var(--green);
@@ -525,6 +533,15 @@ header .right .links a:not(.btn):hover {
 	border: none;
 	outline: none;
 	margin-top: 10px;
+}
+#contact form button:hover{
+	background-color: #2db88e;
+}
+#contact form button:focus{
+	background-color: #11d89c;
+}
+#contact form button:active{
+	background: linear-gradient(to bottom, #2db88e, #1e755b);
 }
 /* CONTACT */
 
