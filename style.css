@@ -480,10 +480,10 @@ header .right .links a:not(.btn):hover {
 	border-radius: 10px;
 	background: var(--dark-d-1);
 }
-#contact h1 {
+#contact h2 {
 	max-width: 768px;
 	margin: 0 auto;
-	font-size: 2.25rem;
+	font-size: 2rem;
 	font-weight: 600;
 	color: var(--white);
 	text-align: center;
