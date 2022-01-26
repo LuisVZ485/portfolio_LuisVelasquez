@@ -581,6 +581,14 @@ footer p a:hover {
 }
 /* FOOTER */
 
+#m-email{
+	padding: 4rem 0;
+	background: var(--dark-d-1);
+}
+
+#m-email h3{
+	color: var(--white);
+}
 
 
 
