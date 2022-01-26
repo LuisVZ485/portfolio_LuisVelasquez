@@ -582,12 +582,29 @@ footer p a:hover {
 /* FOOTER */
 
 
+#email-services{
+	padding: 4rem 0;
+	background: var(--dark);
+}
 
-#services h3{
+#email-services .boxm{
+	padding: 1.25rem;
+	border-radius: 5px;
+	background: var(--dark-d-1);
 	color: var(--white);
 }
 
-#services a{
+#email-services .link-page{
+	padding: 1.25rem;
+	width: 200px;
+	background-color: var(--green);
+}
+
+#email-services h3{
+	color: var(--white);
+}
+
+#email-services a{
 	color: var(--white);
 	text-decoration: none;
 	margin-left: 40px;
