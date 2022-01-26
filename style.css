@@ -583,7 +583,7 @@ footer p a:hover {
 
 
 #email{
-	padding: 4rem 0;
+	padding: 0 4rem 0;
 	background: var(--dark);
 }
 
