@@ -581,16 +581,13 @@ footer p a:hover {
 }
 /* FOOTER */
 
-#remail{
-	padding: 4rem 0;
-	background: var(--dark-d-1);
-}
 
-#remail h3{
+
+#services h3{
 	color: var(--white);
 }
 
-#remail a{
+#services a{
 	color: var(--white);
 }
 
