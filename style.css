@@ -596,6 +596,7 @@ footer p a:hover {
 
 #email .boxm .page{
 	padding: 1rem 2rem;
+	margin-top: 50px;
 	background-color: var(--green);
 	color: var(--white);
 	width: 110px;
