@@ -614,6 +614,13 @@ footer p a:hover {
 	
 }
 
+#email .boxm .linkposition{
+	display: flex;
+	grid-gap: 1rem;
+	align-items: center;
+}
+	
+
 
 
 
