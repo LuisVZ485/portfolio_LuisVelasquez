@@ -589,6 +589,8 @@ footer p a:hover {
 
 #services a{
 	color: var(--white);
+	text-decoration: none;
+	margin-left: 40px;
 }
 
 
