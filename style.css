@@ -594,7 +594,7 @@ footer p a:hover {
 	color: var(--white);
 }
 
-#email .link_page{
+#email .link{
 	padding: 1.25rem;
 	width: 200px;
 	background-color: var(--green);
