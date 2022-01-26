@@ -598,8 +598,8 @@ footer p a:hover {
 	padding: 1rem 2rem;
 	background-color: var(--green);
 	color: var(--white);
-	width: 100px;
-	height: 80px;
+	width: 110px;
+	height: 60px;
 }
 
 #email h3{
@@ -609,7 +609,7 @@ footer p a:hover {
 #email a{
 	color: var(--white);
 	text-decoration: none;
-	margin-left: 40px;
+	
 	
 }
 
