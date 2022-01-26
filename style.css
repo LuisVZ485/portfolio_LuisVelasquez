@@ -594,9 +594,10 @@ footer p a:hover {
 	color: var(--white);
 }
 
-#email .link{
+#email .boxm .link{
 	padding: 1.25rem;
-	width: 200px;
+	width: 100px;
+	height: 100px;
 	background-color: var(--green);
 }
 
@@ -608,10 +609,7 @@ footer p a:hover {
 	color: var(--white);
 	text-decoration: none;
 	margin-left: 40px;
-	padding: 1.25rem;
-	width: 200px;
-	height: 150px;
-	background-color: var(--green);
+	
 }
 
 
