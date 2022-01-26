@@ -590,6 +590,10 @@ footer p a:hover {
 	color: var(--white);
 }
 
+#m-email a{
+	color: var(--white);
+}
+
 
 
 
