@@ -11,6 +11,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+body{
+	background: var(--dark);
+}
+
 :root {
 	--dark: #3B3F50;
 	--dark-d-1: #242734;
