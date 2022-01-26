@@ -588,8 +588,7 @@ footer p a:hover {
 }
 
 #email .boxm{
-	padding: 1.25rem;
-	border-radius: 5px;
+	padding: 2.25rem;
 	background: var(--dark-d-1);
 	color: var(--white);
 }
@@ -599,7 +598,7 @@ footer p a:hover {
 	margin-top: 50px;
 	background-color: var(--green);
 	color: var(--white);
-	
+	border-radius: 5px;
 }
 
 #email h3{
