@@ -353,11 +353,11 @@ header .right .links a:not(.btn):hover {
 	padding: 1.5rem;
 	
 }
-
+/* 
 .abilities h3{
 	color: var(--white);
 	
-}
+} */
 .name__abilitie{
 	font-size: 16px;
 	font-weight: 700;
