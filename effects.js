@@ -119,11 +119,4 @@ toggleTheme1.addEventListener('click' , function(){
 });
 
 
-// CONTACT
-
-const formOfContact = document.querySelector('.contact__form');
-const emailOfInput = document.querySelector('.email__input');
-const menssageOfTexarea = document.querySelector('.menssage');
-
-// funtion to send an email
 
