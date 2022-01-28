@@ -46,6 +46,7 @@ window.addEventListener('scroll', function () {
 
 // BUTTONS, CHANGE OF COLOR
 
+// NAV
 
 const toggleTheme1 = document.querySelector('#toggle-themej');
 const navcolor = document.querySelector('nav');
@@ -117,6 +118,9 @@ toggleTheme1.addEventListener('click' , function(){
 		navMenuWhite.classList.replace ("nav-menu__white", "nav-menu" );
 	}
 });
+
+
+// HEADER
 
 
 
