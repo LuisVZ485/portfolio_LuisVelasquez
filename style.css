@@ -615,6 +615,7 @@ footer p a:hover {
 
 #email h3{
 	color: var(--white);
+	direction: rtl;
 }
 
 #email a{
