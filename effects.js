@@ -135,3 +135,24 @@ toggleTheme1.addEventListener('click' , function(){
 	
 });
 // HEADER
+
+// SERVICES SECTION
+
+
+// const servicesWhite = document.getElementById('#services');
+
+// toggleTheme1.addEventListener('click' , function(){
+	
+
+// 	servicesWhite
+	
+	
+// });
+
+
+
+
+
+
+
+// SERVICES SECTION

@@ -368,7 +368,7 @@ header.header-white .right .links a:not(.btn):hover {
 	grid-template-columns: repeat(auto-fit, minmax(calc(768px / 3), 1fr));
 	grid-gap: 1.25rem;
 }
-#services .right .box {
+/* #services .right .box {
 	background: var(--dark-d-1);
 	border-radius: 5px;
 	height: 300px;
@@ -414,7 +414,7 @@ header.header-white .right .links a:not(.btn):hover {
 }
 #services .right .box a:hover {
 	grid-gap: .75rem;
-}
+} */
 
 .abilities{
 	width: 100%;
