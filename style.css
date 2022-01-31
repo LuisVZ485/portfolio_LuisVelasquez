@@ -293,7 +293,7 @@ header.header-white .left img{
 		box-shadow: 25px 10px 30px 0px var(--green);
 	}
 	50%{
-		box-shadow: 25px 10px 30px 0px #6c0999;
+		box-shadow: 25px 10px 30px 0px #c01818;
 	}
 	
 	100%{
@@ -341,7 +341,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 
 /* SERVICES */
-#services {
+.services {
 	padding: 4rem 0;
 	background: var(--dark-d-2);
 }
@@ -353,7 +353,7 @@ header.header-white .right .links a:not(.btn):hover {
 #services .left {
 	flex: .2 1 0;
 }
-#services .left h1 {
+.services .left h1 {
 	font-size: 1.25rem;
 	font-weight: 600;
 	color: var(--white);
@@ -425,11 +425,7 @@ header.header-white .right .links a:not(.btn):hover {
 	padding: 1.5rem;
 	
 }
-/* 
-.abilities h3{
-	color: var(--white);
-	
-} */
+
 .name__abilitie{
 	font-size: 16px;
 	font-weight: 700;
@@ -491,6 +487,20 @@ header.header-white .right .links a:not(.btn):hover {
 		width: 100%;
 		background: #6a6acd;
 	}
+}
+
+
+/* serviceswhite */
+
+.services-white {
+	padding: 4rem 0;
+	background: var(--grey-d-1);
+}
+
+.services-white .left h1 {
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: #000;
 }
 
 /* SERVICES */

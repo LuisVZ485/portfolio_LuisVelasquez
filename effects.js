@@ -128,26 +128,30 @@ const headerWhite = document.querySelector('header');
 
 
 toggleTheme1.addEventListener('click' , function(){
-	
 
 	headerWhite.classList.toggle("header-white");
-	
-	
+
 });
 // HEADER
 
 // SERVICES SECTION
 
 
-// const servicesWhite = document.getElementById('#services');
+const servicesWhite = document.querySelector('#services');
 
-// toggleTheme1.addEventListener('click' , function(){
+toggleTheme1.addEventListener('click' , function(){
 	
-
-// 	servicesWhite
+	if(servicesWhite.classList.contains("services"))
+	{
+		servicesWhite.classList.replace("services", "services-white");
+	}
+	else
+	{
+		servicesWhite.classList.replace ("services-white", "services" );
+	}
 	
 	
-// });
+});
 
 
 
