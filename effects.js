@@ -42,7 +42,7 @@ window.addEventListener('scroll', function () {
 	})
 })
 
-
+// MENU
 
 // BUTTONS, CHANGE OF COLOR
 
@@ -119,6 +119,7 @@ toggleTheme1.addEventListener('click' , function(){
 		navMenuWhite.classList.replace ("nav-menu__white", "nav-menu" );
 	}
 });
+// NAV
 
 
 // HEADER
@@ -133,3 +134,4 @@ toggleTheme1.addEventListener('click' , function(){
 	
 	
 });
+// HEADER
