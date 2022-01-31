@@ -55,6 +55,7 @@ const logoDev = document.querySelector('#logo-name');
 const navMenuWhite = document.querySelector('.nav-menu');
 
 
+
 toggleTheme1.addEventListener('click' , function(){
 	navcolor.classList.toggle("white");
 	toggleIcon.classList.toggle("toggle-theme___icon");
@@ -122,5 +123,13 @@ toggleTheme1.addEventListener('click' , function(){
 
 // HEADER
 
+const headerWhite = document.querySelector('header');
 
 
+toggleTheme1.addEventListener('click' , function(){
+	
+
+	headerWhite.classList.toggle("header-white");
+	
+	
+});
