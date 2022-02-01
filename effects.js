@@ -138,9 +138,15 @@ toggleTheme1.addEventListener('click' , function(){
 
 
 const servicesWhite = document.querySelector('#services');
+const abilities = document.querySelector('.abilities');
+const nameOfAbilities = document.querySelector('.name__abilitie');
+const progressBar = document.querySelector('.progress__bar');
+const porcent = document.querySelector('.porcentaje');
 
 toggleTheme1.addEventListener('click' , function(){
 	
+	// section
+
 	if(servicesWhite.classList.contains("services"))
 	{
 		servicesWhite.classList.replace("services", "services-white");
@@ -149,7 +155,48 @@ toggleTheme1.addEventListener('click' , function(){
 	{
 		servicesWhite.classList.replace ("services-white", "services" );
 	}
-	
+
+	//container of skills
+
+	if(abilities.classList.contains("abilities"))
+	{
+		abilities.classList.replace("abilities", "abilities-white");
+	}
+	else
+	{
+		abilities.classList.replace ("abilities-white", "abilities" );
+	}
+
+	// elements
+
+	if(nameOfAbilities.classList.contains("name__abilitie"))
+	{
+		nameOfAbilities.classList.replace("name__abilitie", "name__abilitie-white");
+	}
+	else
+	{
+		nameOfAbilities.classList.replace ("name__abilitie-white", "name__abilitie" );
+	}
+
+
+	if(progressBar.classList.contains("progress__bar"))
+	{
+		progressBar.classList.replace("progress__bar", "progress__bar-white");
+	}
+	else
+	{
+		progressBar.classList.replace ("progress__bar-white", "progress__bar" );
+	}
+
+
+	if(porcent.classList.contains("porcentaje"))
+	{
+		porcent.classList.replace("porcentaje", "porcentaje-white");
+	}
+	else
+	{
+		porcent.classList.replace ("porcentaje-white", "porcentaje" );
+	}
 	
 });
 

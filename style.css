@@ -494,13 +494,87 @@ header.header-white .right .links a:not(.btn):hover {
 
 .services-white {
 	padding: 4rem 0;
-	background: var(--grey-d-1);
+	background: #7D8A92;
 }
 
 .services-white .left h1 {
 	font-size: 1.25rem;
 	font-weight: 600;
 	color: #000;
+}
+
+.abilities-white{
+	width: 100%;
+	max-width: 600px;
+	padding: 0 20px;
+	background: var(--grey-d-2);
+	border-radius: 5px;	
+	padding: 1.5rem;
+	
+}
+
+.name__abilitie-white{
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+	margin: 20px 0px;
+}
+
+.progress__bar-white{
+	height: 14px;
+	background: #444;
+	border-radius: 5px;
+}
+
+.porcentaje-white{
+	height: 14px;
+	background: #b94f11;
+	border-radius: 5px;
+	position: relative;
+	animation: animationWhite 4.5s 1;
+}
+
+.porcentaje-white::before {
+	content: attr(porcentaje);
+	position: absolute;
+	padding: 4px 6px;
+	background-color: #000000;
+	color: white;
+	border-radius: 5px;
+	font-size: 12px;
+	top: -35px;
+	right: 0;
+	transform: translateX(50%);
+}
+
+.porcentaje-white::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #000000;
+	top: -16px;
+	right: 0;
+	transform: translateX(50%) rotate(45deg);
+}
+
+@keyframes animationWhite{
+	0% {
+		width: 0;
+		background: var(--white);
+	}
+	20%{
+		background: #8b0035;
+	}
+	50%{
+		background: #1421dc;
+	}
+	
+	100%{
+		width: 100%;
+		background: #b94f11;
+	}
 }
 
 /* SERVICES */
