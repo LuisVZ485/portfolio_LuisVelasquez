@@ -138,7 +138,7 @@ toggleTheme1.addEventListener('click' , function(){
 
 
 const servicesWhite = document.querySelector('#services');
-const abilities = document.querySelector('.abilities');
+const abilities = document.getElementsByClassName('abilities');
 const nameOfAbilities = document.querySelector('.name__abilitie');
 const progressBar = document.querySelector('.progress__bar');
 const porcent = document.querySelector('.porcentaje');
@@ -158,14 +158,25 @@ toggleTheme1.addEventListener('click' , function(){
 
 	//container of skills
 
-	if(abilities.classList.contains("abilities"))
+//console.log(abilities);
+
+
+	
+	if(abilities[0].classList.contains("abilities"))
 	{
-		abilities.classList.replace("abilities", "abilities-white");
+		abilities[0].classList.replace("abilities", "abilities-white");
 	}
 	else
 	{
-		abilities.classList.replace ("abilities-white", "abilities" );
+		abilities[0].classList.replace ("abilities-white", "abilities" );
 	}
+
+
+	
+
+
+	// abilities.style.background = "red";
+	
 
 	// elements
 
