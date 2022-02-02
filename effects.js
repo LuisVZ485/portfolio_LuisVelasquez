@@ -141,7 +141,7 @@ const servicesWhite = document.querySelector('#services');
 const abilities = document.getElementsByClassName('blocks');
 const nameOfAbilities = document.querySelector('.name__abilitie');
 const progressBar = document.querySelector('.progress__bar');
-const porcent = document.querySelector('.porcentaje');
+const porcent = document.getElementsByClassName('porcent');
 
 toggleTheme1.addEventListener('click' , function(){
 	
@@ -161,51 +161,52 @@ toggleTheme1.addEventListener('click' , function(){
 
 	//blocks of abilities
 	
-	if(abilities[0].classList.contains("abilities"))
 	{
-		abilities[0].classList.replace("abilities", "abilities-white");
-	}
-	else
-	{
-		abilities[0].classList.replace ("abilities-white", "abilities" );
-	}
+		if(abilities[0].classList.contains("abilities"))
+		{
+			abilities[0].classList.replace("abilities", "abilities-white");
+		}
+		else
+		{
+			abilities[0].classList.replace ("abilities-white", "abilities" );
+		}
 
-	if(abilities[1].classList.contains("abilities"))
-	{
-		abilities[1].classList.replace("abilities", "abilities-white");
-	}
-	else
-	{
-		abilities[1].classList.replace ("abilities-white", "abilities" );
-	}
+		if(abilities[1].classList.contains("abilities"))
+		{
+			abilities[1].classList.replace("abilities", "abilities-white");
+		}
+		else
+		{
+			abilities[1].classList.replace ("abilities-white", "abilities" );
+		}
 
-	if(abilities[2].classList.contains("abilities"))
-	{
-		abilities[2].classList.replace("abilities", "abilities-white");
-	}
-	else
-	{
-		abilities[2].classList.replace ("abilities-white", "abilities" );
-	}
+		if(abilities[2].classList.contains("abilities"))
+		{
+			abilities[2].classList.replace("abilities", "abilities-white");
+		}
+		else
+		{
+			abilities[2].classList.replace ("abilities-white", "abilities" );
+		}
 
-	if(abilities[3].classList.contains("abilities"))
-	{
-		abilities[3].classList.replace("abilities", "abilities-white");
-	}
-	else
-	{
-		abilities[3].classList.replace ("abilities-white", "abilities" );
-	}
+		if(abilities[3].classList.contains("abilities"))
+		{
+			abilities[3].classList.replace("abilities", "abilities-white");
+		}
+		else
+		{
+			abilities[3].classList.replace ("abilities-white", "abilities" );
+		}
 
-	if(abilities[4].classList.contains("abilities"))
-	{
-		abilities[4].classList.replace("abilities", "abilities-white");
+		if(abilities[4].classList.contains("abilities"))
+		{
+			abilities[4].classList.replace("abilities", "abilities-white");
+		}
+		else
+		{
+			abilities[4].classList.replace ("abilities-white", "abilities" );
+		}
 	}
-	else
-	{
-		abilities[4].classList.replace ("abilities-white", "abilities" );
-	}
-
 	//blocks of abilities
 
 	
@@ -223,25 +224,56 @@ toggleTheme1.addEventListener('click' , function(){
 	}
 
 
-	if(progressBar.classList.contains("progress__bar"))
+	
+
+	// porcent
+
+	if(porcent[0].classList.contains("porcentaje"))
 	{
-		progressBar.classList.replace("progress__bar", "progress__bar-white");
+		porcent[0].classList.replace("porcentaje", "porcentaje-white");
 	}
 	else
 	{
-		progressBar.classList.replace ("progress__bar-white", "progress__bar" );
+		porcent[0].classList.replace ("porcentaje-white", "porcentaje" );
 	}
 
-
-	if(porcent.classList.contains("porcentaje"))
+	if(porcent[1].classList.contains("porcentaje"))
 	{
-		porcent.classList.replace("porcentaje", "porcentaje-white");
+		porcent[1].classList.replace("porcentaje", "porcentaje-white");
 	}
 	else
 	{
-		porcent.classList.replace ("porcentaje-white", "porcentaje" );
+		porcent[1].classList.replace ("porcentaje-white", "porcentaje" );
+	}
+
+	if(porcent[2].classList.contains("porcentaje"))
+	{
+		porcent[2].classList.replace("porcentaje", "porcentaje-white");
+	}
+	else
+	{
+		porcent[2].classList.replace ("porcentaje-white", "porcentaje" );
+	}
+
+	if(porcent[3].classList.contains("porcentaje"))
+	{
+		porcent[3].classList.replace("porcentaje", "porcentaje-white");
+	}
+	else
+	{
+		porcent[3].classList.replace ("porcentaje-white", "porcentaje" );
+	}
+
+	if(porcent[4].classList.contains("porcentaje"))
+	{
+		porcent[4].classList.replace("porcentaje", "porcentaje-white");
+	}
+	else
+	{
+		porcent[4].classList.replace ("porcentaje-white", "porcentaje" );
 	}
 	
+	// porcent
 });
 
 
