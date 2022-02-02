@@ -319,7 +319,25 @@ toggleTheme1.addEventListener('click' , function(){
 
 
 
-
-
-
 // SERVICES SECTION
+
+// PORTFOLIO
+
+const portfolioInWhite = document.querySelector('#portfolio');
+
+{
+	toggleTheme1.addEventListener('click' , function(){
+
+		if(portfolioInWhite.classList.contains("portfolio"))
+		{
+			portfolioInWhite.classList.replace("portfolio", "portfolio-white");
+		}
+		else
+		{
+			portfolioInWhite.classList.replace ("portfolio-white", "portfolio" );
+		}
+	
+	});
+	
+}
+// PORTFOLIO

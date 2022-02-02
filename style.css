@@ -580,11 +580,11 @@ header.header-white .right .links a:not(.btn):hover {
 
 
 /* PORTFOLIO */
-#portfolio {
+.portfolio {
 	padding: 4rem 0;
 	background: var(--dark);
 }
-#portfolio h1 {
+.portfolio h1 {
 	font-size: 2.25rem;
 	max-width: 500px;
 	font-weight: 600;
@@ -596,7 +596,7 @@ header.header-white .right .links a:not(.btn):hover {
 	grid-template-columns: repeat(auto-fit, minmax(calc(769px / 3), 1fr));
 	grid-gap: 1.25rem;
 }
-#portfolio .box {
+.portfolio .box {
 	padding: 1.25rem;
 	border-radius: 5px;
 	background: var(--dark-d-1);
@@ -611,9 +611,36 @@ header.header-white .right .links a:not(.btn):hover {
 	margin: 1rem 0;
 	transition: all .3s ease;
 }
-#portfolio .box:hover h4 {
+.portfolio .box:hover h4 {
 	color: var(--green);
 }
+
+
+/* portfoliowhite */
+
+.portfolio-white {
+	padding: 4rem 0;
+	background: var(--white);
+}
+.portfolio-white h1 {
+	font-size: 2.25rem;
+	max-width: 500px;
+	font-weight: 600;
+	margin-bottom: 2.25rem;
+	color: #000;
+}
+
+.portfolio-white .box {
+	padding: 1.25rem;
+	border-radius: 5px;
+	background: var(--dark-d-1);
+	color: var(--white);
+}
+
+.portfolio-white .box:hover h4 {
+	color: var(--green);
+}
+
 /* PORTFOLIO */
 
 
