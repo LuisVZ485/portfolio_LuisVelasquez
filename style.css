@@ -656,7 +656,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 
 /* CONTACT */
-#contact {
+.contact {
 	padding: 4rem 0;
 	background: var(--dark);
 }
@@ -666,12 +666,12 @@ header.header-white .right .links a:not(.btn):hover {
 	align-items: center;
 	min-height: 100vh;
 }
-#contact .wrapper {
+.contact .wrapper {
 	padding: 1.5rem;
 	border-radius: 10px;
 	background: var(--dark-d-1);
 }
-#contact h2 {
+.contact h2 {
 	max-width: 768px;
 	margin: 0 auto;
 	font-size: 2rem;
@@ -687,7 +687,7 @@ header.header-white .right .links a:not(.btn):hover {
 	align-items: center;
 	flex-direction: column;
 }
-#contact form input {
+.contact form input {
 	padding: .75rem 1rem;
 	background: var(--dark-d-2);
 	outline: none;
@@ -697,11 +697,11 @@ header.header-white .right .links a:not(.btn):hover {
 	color: var(--white);
 	border-bottom: 3px solid var(--green);
 }
-#contact form input:focus{
+.contact form input:focus{
 	border-bottom: 3px solid #057a4d;
 	background: #0f0f11;
 }
-#contact form textarea {
+.contact form textarea {
 	padding: .75rem 1rem;
 	background: var(--dark-d-2);
 	outline: none;
@@ -713,11 +713,11 @@ header.header-white .right .links a:not(.btn):hover {
 	resize: none;
 	margin-top: 10px;
 }
-#contact form textarea:focus{
+.contact form textarea:focus{
 	border-bottom: 3px solid #057a4d;
 	background: #0f0f11;
 }
-#contact form button {
+.contact form button {
 	padding: .75rem 2rem;
 	background: var(--green);
 	color: var(--white);
@@ -728,17 +728,22 @@ header.header-white .right .links a:not(.btn):hover {
 	outline: none;
 	margin-top: 10px;
 }
-#contact form button:hover{
+.contact form button:hover{
 	background-color: #2db88e;
 	box-shadow: 0 4px 24px var(--green);
 }
-#contact form button:focus{
+.contact form button:focus{
 	background-color: #11d89c;
 }
-#contact form button:active{
+.contact form button:active{
 	background: linear-gradient(to bottom, #2db88e, #1e755b);
 	box-shadow: 0 4px 24px #1B5DB2;
 }
+
+/* contactwhite */
+
+
+
 /* CONTACT */
 
 
