@@ -269,6 +269,10 @@ header .right .links .btn {
 header .right .links .btn:hover {
 	box-shadow: 0 4px 24px var(--green);
 }
+header .right .links .btn:active {
+	background: linear-gradient(to bottom, #2db88e, #1e755b);
+	box-shadow: 0 0px 24px #1B5DB2;
+}
 header .right .links a:not(.btn) {
 	color: var(--white);
 	font-size: 1.25rem;
@@ -325,6 +329,10 @@ header.header-white .right .links .btn {
 }
 header.header-white .right .links .btn:hover {
 	box-shadow: 0 4px 24px #1B5DB2;
+}
+header.header-white .right .links .btn:active {
+	background: linear-gradient(to bottom, #1B5DB2, #103b74);
+	box-shadow: 0 0px 24px var(--green);
 }
 header.header-white .right .links a:not(.btn) {
 	color: #000;
@@ -684,6 +692,7 @@ header.header-white .right .links a:not(.btn):hover {
 	background: var(--dark-d-2);
 	outline: none;
 	border: none;
+	border-radius: 5px;
 	width: 100%;
 	color: var(--white);
 	border-bottom: 3px solid var(--green);
@@ -697,6 +706,7 @@ header.header-white .right .links a:not(.btn):hover {
 	background: var(--dark-d-2);
 	outline: none;
 	border: none;
+	border-radius: 5px;
 	border-bottom: 3px solid var(--green);
 	width: 100%;
 	color: var(--white);
@@ -714,17 +724,20 @@ header.header-white .right .links a:not(.btn):hover {
 	font-weight: 500;
 	cursor: pointer;
 	border: none;
+	border-radius: 5px;
 	outline: none;
 	margin-top: 10px;
 }
 #contact form button:hover{
 	background-color: #2db88e;
+	box-shadow: 0 4px 24px var(--green);
 }
 #contact form button:focus{
 	background-color: #11d89c;
 }
 #contact form button:active{
 	background: linear-gradient(to bottom, #2db88e, #1e755b);
+	box-shadow: 0 4px 24px #1B5DB2;
 }
 /* CONTACT */
 
