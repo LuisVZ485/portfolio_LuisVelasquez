@@ -450,7 +450,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 .porcentaje{
 	height: 14px;
-	background: slateblue;
+	background: #6a5acd;
 	border-radius: 5px;
 	position: relative;
 	animation: animation 4.5s 1;
@@ -641,12 +641,12 @@ header.header-white .right .links a:not(.btn):hover {
 .portfolio-white .box {
 	padding: 1.25rem;
 	border-radius: 5px;
-	background: var(--dark-d-1);
-	color: var(--white);
+	background: #626262;
+	color: #000;
 }
 
 .portfolio-white .box:hover h4 {
-	color: var(--green);
+	color: #1421dc;
 }
 
 /* PORTFOLIO */
