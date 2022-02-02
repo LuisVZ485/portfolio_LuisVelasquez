@@ -494,7 +494,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 .services-white {
 	padding: 4rem 0;
-	background: #7D8A92;
+	background: #787879;
 }
 
 .services-white .left h1 {
@@ -507,7 +507,7 @@ header.header-white .right .links a:not(.btn):hover {
 	width: 100%;
 	max-width: 600px;
 	padding: 0 20px;
-	background: var(--grey-d-2);
+	background: #626262;
 	border-radius: 5px;	
 	padding: 1.5rem;
 	
@@ -525,7 +525,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 .porcentaje-white{
 	height: 14px;
-	background: #b94f11;
+	background: #FF3E14;
 	border-radius: 5px;
 	position: relative;
 	animation: animationWhite 4.5s 1;
@@ -569,7 +569,7 @@ header.header-white .right .links a:not(.btn):hover {
 	
 	100%{
 		width: 100%;
-		background: #b94f11;
+		background: #FF3E14;
 	}
 }
 
@@ -734,6 +734,7 @@ footer p a:hover {
 /* FOOTER */
 
 
+/* SUCCESS file */
 #email{
 	padding: 0 4rem 0;
 	background: var(--dark);
@@ -768,7 +769,7 @@ footer p a:hover {
 	grid-gap: 1rem;
 	align-items: center;
 }
-	
+/* SUCCESS file */
 
 
 

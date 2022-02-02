@@ -216,7 +216,6 @@ toggleTheme1.addEventListener('click' , function(){
 	// elements
 
 	// name skill
-
 	{//name of abilitie
 		if(nameOfAbilities[0].classList.contains("name__abilitie"))
 		{
@@ -263,10 +262,7 @@ toggleTheme1.addEventListener('click' , function(){
 			nameOfAbilities[4].classList.replace ("name__abilitie-white", "name__abilitie" );
 		}
 	}
-
 	// name skill
-
-	
 
 	// porcent
 	{// class porcentaje
@@ -317,7 +313,7 @@ toggleTheme1.addEventListener('click' , function(){
 	}
 	// porcent
 
-	
+	// elements
 });
 
 
