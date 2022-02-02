@@ -317,8 +317,6 @@ toggleTheme1.addEventListener('click' , function(){
 });
 
 
-
-
 // SERVICES SECTION
 
 // PORTFOLIO
@@ -341,3 +339,7 @@ const portfolioInWhite = document.querySelector('#portfolio');
 	
 }
 // PORTFOLIO
+
+
+// CONTACT SECTION
+// CONTACT SECTION
