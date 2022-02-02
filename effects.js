@@ -138,7 +138,7 @@ toggleTheme1.addEventListener('click' , function(){
 
 
 const servicesWhite = document.querySelector('#services');
-const abilities = document.getElementsByClassName('abilities');
+const abilities = document.getElementsByClassName('blocks');
 const nameOfAbilities = document.querySelector('.name__abilitie');
 const progressBar = document.querySelector('.progress__bar');
 const porcent = document.querySelector('.porcentaje');
@@ -156,11 +156,10 @@ toggleTheme1.addEventListener('click' , function(){
 		servicesWhite.classList.replace ("services-white", "services" );
 	}
 
+
 	//container of skills
 
-//console.log(abilities);
-
-
+	//blocks of abilities
 	
 	if(abilities[0].classList.contains("abilities"))
 	{
@@ -171,11 +170,45 @@ toggleTheme1.addEventListener('click' , function(){
 		abilities[0].classList.replace ("abilities-white", "abilities" );
 	}
 
+	if(abilities[1].classList.contains("abilities"))
+	{
+		abilities[1].classList.replace("abilities", "abilities-white");
+	}
+	else
+	{
+		abilities[1].classList.replace ("abilities-white", "abilities" );
+	}
+
+	if(abilities[2].classList.contains("abilities"))
+	{
+		abilities[2].classList.replace("abilities", "abilities-white");
+	}
+	else
+	{
+		abilities[2].classList.replace ("abilities-white", "abilities" );
+	}
+
+	if(abilities[3].classList.contains("abilities"))
+	{
+		abilities[3].classList.replace("abilities", "abilities-white");
+	}
+	else
+	{
+		abilities[3].classList.replace ("abilities-white", "abilities" );
+	}
+
+	if(abilities[4].classList.contains("abilities"))
+	{
+		abilities[4].classList.replace("abilities", "abilities-white");
+	}
+	else
+	{
+		abilities[4].classList.replace ("abilities-white", "abilities" );
+	}
+
+	//blocks of abilities
 
 	
-
-
-	// abilities.style.background = "red";
 	
 
 	// elements
