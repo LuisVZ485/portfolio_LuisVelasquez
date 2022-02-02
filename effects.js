@@ -139,21 +139,22 @@ toggleTheme1.addEventListener('click' , function(){
 
 const servicesWhite = document.querySelector('#services');
 const abilities = document.getElementsByClassName('blocks');
-const nameOfAbilities = document.querySelector('.name__abilitie');
-const progressBar = document.querySelector('.progress__bar');
+const nameOfAbilities = document.getElementsByClassName('skill-name');
 const porcent = document.getElementsByClassName('porcent');
 
 toggleTheme1.addEventListener('click' , function(){
 	
 	// section
 
-	if(servicesWhite.classList.contains("services"))
-	{
-		servicesWhite.classList.replace("services", "services-white");
-	}
-	else
-	{
-		servicesWhite.classList.replace ("services-white", "services" );
+	{// class services
+		if(servicesWhite.classList.contains("services"))
+		{
+			servicesWhite.classList.replace("services", "services-white");
+		}
+		else
+		{
+			servicesWhite.classList.replace ("services-white", "services" );
+		}
 	}
 
 
@@ -161,7 +162,7 @@ toggleTheme1.addEventListener('click' , function(){
 
 	//blocks of abilities
 	
-	{
+	{// abilities
 		if(abilities[0].classList.contains("abilities"))
 		{
 			abilities[0].classList.replace("abilities", "abilities-white");
@@ -214,66 +215,109 @@ toggleTheme1.addEventListener('click' , function(){
 
 	// elements
 
-	if(nameOfAbilities.classList.contains("name__abilitie"))
-	{
-		nameOfAbilities.classList.replace("name__abilitie", "name__abilitie-white");
-	}
-	else
-	{
-		nameOfAbilities.classList.replace ("name__abilitie-white", "name__abilitie" );
+	// name skill
+
+	{//name of abilitie
+		if(nameOfAbilities[0].classList.contains("name__abilitie"))
+		{
+			nameOfAbilities[0].classList.replace("name__abilitie", "name__abilitie-white");
+		}
+		else
+		{
+			nameOfAbilities[0].classList.replace ("name__abilitie-white", "name__abilitie" );
+		}
+
+		if(nameOfAbilities[1].classList.contains("name__abilitie"))
+		{
+			nameOfAbilities[1].classList.replace("name__abilitie", "name__abilitie-white");
+		}
+		else
+		{
+			nameOfAbilities[1].classList.replace ("name__abilitie-white", "name__abilitie" );
+		}
+
+		if(nameOfAbilities[2].classList.contains("name__abilitie"))
+		{
+			nameOfAbilities[2].classList.replace("name__abilitie", "name__abilitie-white");
+		}
+		else
+		{
+			nameOfAbilities[2].classList.replace ("name__abilitie-white", "name__abilitie" );
+		}
+
+		if(nameOfAbilities[3].classList.contains("name__abilitie"))
+		{
+			nameOfAbilities[3].classList.replace("name__abilitie", "name__abilitie-white");
+		}
+		else
+		{
+			nameOfAbilities[3].classList.replace ("name__abilitie-white", "name__abilitie" );
+		}
+
+		if(nameOfAbilities[4].classList.contains("name__abilitie"))
+		{
+			nameOfAbilities[4].classList.replace("name__abilitie", "name__abilitie-white");
+		}
+		else
+		{
+			nameOfAbilities[4].classList.replace ("name__abilitie-white", "name__abilitie" );
+		}
 	}
 
+	// name skill
 
 	
 
 	// porcent
+	{// class porcentaje
+		if(porcent[0].classList.contains("porcentaje"))
+		{
+			porcent[0].classList.replace("porcentaje", "porcentaje-white");
+		}
+		else
+		{
+			porcent[0].classList.replace ("porcentaje-white", "porcentaje" );
+		}
 
-	if(porcent[0].classList.contains("porcentaje"))
-	{
-		porcent[0].classList.replace("porcentaje", "porcentaje-white");
-	}
-	else
-	{
-		porcent[0].classList.replace ("porcentaje-white", "porcentaje" );
-	}
+		if(porcent[1].classList.contains("porcentaje"))
+		{
+			porcent[1].classList.replace("porcentaje", "porcentaje-white");
+		}
+		else
+		{
+			porcent[1].classList.replace ("porcentaje-white", "porcentaje" );
+		}
 
-	if(porcent[1].classList.contains("porcentaje"))
-	{
-		porcent[1].classList.replace("porcentaje", "porcentaje-white");
-	}
-	else
-	{
-		porcent[1].classList.replace ("porcentaje-white", "porcentaje" );
-	}
+		if(porcent[2].classList.contains("porcentaje"))
+		{
+			porcent[2].classList.replace("porcentaje", "porcentaje-white");
+		}
+		else
+		{
+			porcent[2].classList.replace ("porcentaje-white", "porcentaje" );
+		}
 
-	if(porcent[2].classList.contains("porcentaje"))
-	{
-		porcent[2].classList.replace("porcentaje", "porcentaje-white");
-	}
-	else
-	{
-		porcent[2].classList.replace ("porcentaje-white", "porcentaje" );
-	}
+		if(porcent[3].classList.contains("porcentaje"))
+		{
+			porcent[3].classList.replace("porcentaje", "porcentaje-white");
+		}
+		else
+		{
+			porcent[3].classList.replace ("porcentaje-white", "porcentaje" );
+		}
 
-	if(porcent[3].classList.contains("porcentaje"))
-	{
-		porcent[3].classList.replace("porcentaje", "porcentaje-white");
+		if(porcent[4].classList.contains("porcentaje"))
+		{
+			porcent[4].classList.replace("porcentaje", "porcentaje-white");
+		}
+		else
+		{
+			porcent[4].classList.replace ("porcentaje-white", "porcentaje" );
+		}
 	}
-	else
-	{
-		porcent[3].classList.replace ("porcentaje-white", "porcentaje" );
-	}
-
-	if(porcent[4].classList.contains("porcentaje"))
-	{
-		porcent[4].classList.replace("porcentaje", "porcentaje-white");
-	}
-	else
-	{
-		porcent[4].classList.replace ("porcentaje-white", "porcentaje" );
-	}
-	
 	// porcent
+
+	
 });
 
 
