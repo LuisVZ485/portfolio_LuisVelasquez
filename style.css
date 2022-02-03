@@ -646,7 +646,7 @@ header.header-white .right .links a:not(.btn):hover {
 }
 
 .portfolio-white .box:hover h4 {
-	color: #1421dc;
+	color: #212277;
 }
 
 /* PORTFOLIO */
@@ -742,6 +742,10 @@ header.header-white .right .links a:not(.btn):hover {
 
 /* contactwhite */
 
+.contact {
+	padding: 4rem 0;
+	background: var(--white);
+}
 
 
 /* CONTACT */

@@ -323,7 +323,7 @@ toggleTheme1.addEventListener('click' , function(){
 
 const portfolioInWhite = document.querySelector('#portfolio');
 
-{
+{//class portfolio
 	toggleTheme1.addEventListener('click' , function(){
 
 		if(portfolioInWhite.classList.contains("portfolio"))
@@ -342,4 +342,23 @@ const portfolioInWhite = document.querySelector('#portfolio');
 
 
 // CONTACT SECTION
+
+const contactInWhite = document.querySelector('#contact');
+
+{//class portfolio
+	toggleTheme1.addEventListener('click' , function(){
+
+		if(portfolioInWhite.classList.contains("portfolio"))
+		{
+			portfolioInWhite.classList.replace("portfolio", "portfolio-white");
+		}
+		else
+		{
+			portfolioInWhite.classList.replace ("portfolio-white", "portfolio" );
+		}
+	
+	});
+	
+}
+
 // CONTACT SECTION
