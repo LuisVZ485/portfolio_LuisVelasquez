@@ -832,7 +832,7 @@ header.header-white .right .links a:not(.btn):hover {
 .footer {
 	background: var(--dark-d-2);
 }
-.footer .container {
+footer .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -852,9 +852,31 @@ header.header-white .right .links a:not(.btn):hover {
 .footer p a {
 	color: var(--green);
 }
-.footer p a:hover {
+footer p a:hover {
 	text-decoration: underline;
 }
+
+/* footerwhite */
+
+.footer-white {
+	background: #626262;
+}
+
+.footer-white .logo {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #000;
+	margin-right: auto;
+}
+.footer-white p {
+	font-size: .875rem;
+	font-weight: 500;
+	color: #000;
+}
+.footer-white p a {
+	color: #112094;
+}
+
 /* FOOTER */
 
 

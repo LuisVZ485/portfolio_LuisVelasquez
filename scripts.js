@@ -366,10 +366,26 @@ const contactInWhite = document.querySelector('#contact');
 // CONTACT SECTION
 
 
-
 // FOOTER SECTION
 
+const footer = document.querySelector('.footer');
 
+{//class portfolio
+	toggleTheme1.addEventListener('click' , function(){
+
+		if(footer.classList.contains("footer"))
+		{
+			footer.classList.replace("footer", "footer-white");
+		}
+		else
+		{
+			footer.classList.replace ("footer-white", "footer" );
+		}
+	});
+
+	
+	
+}
 
 
 // FOOTER SECTION
