@@ -812,15 +812,15 @@ header.header-white .right .links a:not(.btn):hover {
 	margin-top: 10px;
 }
 .contact-white form button:hover{
-	background-color: #2db88e;
-	box-shadow: 0 4px 24px var(--green);
+	background-color: #285591;
+	box-shadow: 0 4px 24px #1B5DB2;
 }
 .contact-white form button:focus{
-	background-color: #11d89c;
+	background-color: #194392;
 }
 .contact-white form button:active{
-	background: linear-gradient(to bottom, #2db88e, #1e755b);
-	box-shadow: 0 4px 24px #1B5DB2;
+	background: linear-gradient(to bottom, #1B5DB2, #0c274b);
+	box-shadow: 0 4px 24px #07cf72;
 }
 
 /* CONTACT */
@@ -829,30 +829,30 @@ header.header-white .right .links a:not(.btn):hover {
 
 
 /* FOOTER */
-footer {
+.footer {
 	background: var(--dark-d-2);
 }
-footer .container {
+.footer .container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	min-height: 4rem;
 }
-footer .logo {
+.footer .logo {
 	font-size: 1.5rem;
 	font-weight: 600;
 	color: var(--white);
 	margin-right: auto;
 }
-footer p {
+.footer p {
 	font-size: .875rem;
 	font-weight: 500;
 	color: var(--white);
 }
-footer p a {
+.footer p a {
 	color: var(--green);
 }
-footer p a:hover {
+.footer p a:hover {
 	text-decoration: underline;
 }
 /* FOOTER */

@@ -357,9 +357,6 @@ const contactInWhite = document.querySelector('#contact');
 		{
 			contactInWhite.classList.replace ("contact-white", "contact" );
 		}
-		
-		
-
 	});
 
 	
@@ -367,3 +364,12 @@ const contactInWhite = document.querySelector('#contact');
 }
 
 // CONTACT SECTION
+
+
+
+// FOOTER SECTION
+
+
+
+
+// FOOTER SECTION
