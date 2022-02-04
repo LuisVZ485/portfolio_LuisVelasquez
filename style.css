@@ -766,37 +766,43 @@ header.header-white .right .links a:not(.btn):hover {
 }
 .contact-white form input {
 	padding: .75rem 1rem;
-	background: #3d3e4d;
+	background: #626262;
 	outline: none;
 	border: none;
 	border-radius: 5px;
 	width: 100%;
 	color: #000;
-	border-bottom: 3px solid var(--green);
+	border-bottom: 3px solid #1B5DB2;
 }
 .contact-white form input:focus{
-	border-bottom: 3px solid #057a4d;
-	background: #0f0f11;
+	border-bottom: 3px solid #002f6b;
+	background: #49494e;
+}
+.contact-white form input::placeholder{
+	color: #000;
 }
 .contact-white form textarea {
 	padding: .75rem 1rem;
-	background: #3d3e4d;
+	background: #626262;
 	outline: none;
 	border: none;
 	border-radius: 5px;
-	border-bottom: 3px solid var(--green);
+	border-bottom: 3px solid #1B5DB2;
 	width: 100%;
 	color: #000;
 	resize: none;
 	margin-top: 10px;
 }
 .contact-white form textarea:focus{
-	border-bottom: 3px solid #057a4d;
-	background: #0f0f11;
+	border-bottom: 3px solid #002f6b;
+	background: #49494e;
+}
+.contact-white form textarea::placeholder{
+	color: #000;
 }
 .contact-white form button {
 	padding: .75rem 2rem;
-	background: var(--green);
+	background: #1B5DB2;
 	color: #000;
 	font-weight: 500;
 	cursor: pointer;

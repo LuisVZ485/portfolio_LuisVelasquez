@@ -345,6 +345,7 @@ const portfolioInWhite = document.querySelector('#portfolio');
 
 const contactInWhite = document.querySelector('#contact');
 
+
 {//class portfolio
 	toggleTheme1.addEventListener('click' , function(){
 
@@ -356,8 +357,12 @@ const contactInWhite = document.querySelector('#contact');
 		{
 			contactInWhite.classList.replace ("contact-white", "contact" );
 		}
-	
+		
+		
+
 	});
+
+	
 	
 }
 
