@@ -348,13 +348,13 @@ const contactInWhite = document.querySelector('#contact');
 {//class portfolio
 	toggleTheme1.addEventListener('click' , function(){
 
-		if(portfolioInWhite.classList.contains("portfolio"))
+		if(contactInWhite.classList.contains("contact"))
 		{
-			portfolioInWhite.classList.replace("portfolio", "portfolio-white");
+			contactInWhite.classList.replace("contact", "contact-white");
 		}
 		else
 		{
-			portfolioInWhite.classList.replace ("portfolio-white", "portfolio" );
+			contactInWhite.classList.replace ("contact-white", "contact" );
 		}
 	
 	});

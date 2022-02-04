@@ -742,7 +742,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 /* contactwhite */
 
-.contact {
+.contact-white {
 	padding: 4rem 0;
 	background: var(--white);
 }
