@@ -389,3 +389,18 @@ const footer = document.querySelector('.footer');
 
 
 // FOOTER SECTION
+
+
+// CODE TO CHANGE THE WORDS
+const title1 = document.querySelector('.title1');
+
+{//words in English
+	// toggleTheme1.addEventListener('click' , function(){
+
+	// 	title1.textContent = "Luis Velásquez - Desarrollador FrontEnd";
+	// });
+
+	
+	
+}
+// CODE TO CHANGE THE WORDS
