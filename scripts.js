@@ -392,15 +392,21 @@ const footer = document.querySelector('.footer');
 
 
 // CODE TO CHANGE THE WORDS
-const title1 = document.querySelector('.title1');
 
+
+const toggleWords = document.querySelector('#toggle-words');
+const title1 = document.querySelector('.title1');
 {//words in English
 	// toggleTheme1.addEventListener('click' , function(){
 
 	// 	title1.textContent = "Luis Velásquez - Desarrollador FrontEnd";
 	// });
 
-	
+	toggleWords.addEventListener('click' , function(){
+		title1.textContent = "Luis Velásquez - Desarrollador FrontEnd";
+		
+		
+	});
 	
 }
 // CODE TO CHANGE THE WORDS
