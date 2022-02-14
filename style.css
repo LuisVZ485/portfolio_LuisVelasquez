@@ -189,6 +189,17 @@ nav.white{
 .toggle-theme___icon{
 	color: var(--white);
 }
+nav #toggle-words {
+	height: 4rem;
+	display: flex;
+	margin-right: 20px;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: all .3s ease;
+	font-size: .875rem;
+	font-weight: 500;
+}
 /* NAVBAR */
 
 

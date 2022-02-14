@@ -56,10 +56,11 @@ const navMenuWhite = document.querySelector('.nav-menu');
 
 
 
+
 toggleTheme1.addEventListener('click' , function(){
 	navcolor.classList.toggle("white");
 	toggleIcon.classList.toggle("toggle-theme___icon");
-	
+	toggleWords.classList.toggle("toggle-theme___icon")
 });
 
 // LOGO BACKGROUNG
@@ -396,6 +397,7 @@ const footer = document.querySelector('.footer');
 
 const toggleWords = document.querySelector('#toggle-words');
 const title1 = document.querySelector('.title1');
+let lenguage = "Spanish";
 {//words in English
 	// toggleTheme1.addEventListener('click' , function(){
 
@@ -403,7 +405,20 @@ const title1 = document.querySelector('.title1');
 	// });
 
 	toggleWords.addEventListener('click' , function(){
+		if(lenguage == "Spanish")
+		{
+			lenguage = "English"
 		title1.textContent = "Luis Velásquez - Desarrollador FrontEnd";
+		}
+		else if(lenguage == "English")
+		{
+			lenguage = "Spanish";
+			title1.textContent = "Luis Velásquez - Frontend Developer";
+		}
+		else
+		{
+			
+		}
 		
 		
 	});
