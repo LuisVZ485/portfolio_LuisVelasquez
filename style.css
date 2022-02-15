@@ -189,6 +189,7 @@ nav.white{
 .toggle-theme___icon{
 	color: var(--white);
 }
+
 nav #toggle-words {
 	height: 4rem;
 	display: flex;

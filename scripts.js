@@ -397,6 +397,10 @@ const footer = document.querySelector('.footer');
 
 const toggleWords = document.querySelector('#toggle-words');
 const title1 = document.querySelector('.title1');
+const menuLink1 = document.querySelector('.menu-link1');
+const menuLink2 = document.querySelector('.menu-link2');
+const menuLink3 = document.querySelector('.menu-link3');
+const menuLink4 = document.querySelector('.menu-link4');
 let lenguage = "Spanish";
 {//words in English
 	// toggleTheme1.addEventListener('click' , function(){
@@ -408,17 +412,48 @@ let lenguage = "Spanish";
 		if(lenguage == "Spanish")
 		{
 			lenguage = "English"
-		title1.textContent = "Luis Velásquez - Desarrollador FrontEnd";
+			// NAV
+
+
+			menuLink1.textContent = "About me";
+			menuLink2.textContent = "Services";
+			menuLink3.textContent = "Portfolio";
+			menuLink4.textContent = "Contact";
+
+
+
+
+
+
+			// NAV
+			title1.textContent = "Luis Velásquez - Frontend Developer";
+			
 		}
 		else if(lenguage == "English")
 		{
 			lenguage = "Spanish";
-			title1.textContent = "Luis Velásquez - Frontend Developer";
-		}
-		else
-		{
+			
+			// NAV
+
+
+			menuLink1.textContent = "Acerca de mí";
+			menuLink2.textContent = "Servicios";
+			menuLink3.textContent = "Portafolio";
+			menuLink4.textContent = "Contacto";
+
+
+
+
+
+
+			// NAV
+			// HEADER
+			title1.textContent = "Luis Velásquez - Desarrollador Frontend";
+			
+			// HEADER
 			
 		}
+		
 		
 		
 	});
