@@ -397,10 +397,16 @@ const footer = document.querySelector('.footer');
 
 const toggleWords = document.querySelector('#toggle-words');
 const title1 = document.querySelector('.title1');
+const btnMore = document.querySelector('.more_profie');
+const myBio = document.querySelector('.bio');
+
 const menuLink1 = document.querySelector('.menu-link1');
 const menuLink2 = document.querySelector('.menu-link2');
 const menuLink3 = document.querySelector('.menu-link3');
 const menuLink4 = document.querySelector('.menu-link4');
+
+const skillForTitle = document.querySelector('.skill-title');
+
 let lenguage = "Spanish";
 {//words in English
 	// toggleTheme1.addEventListener('click' , function(){
@@ -412,6 +418,7 @@ let lenguage = "Spanish";
 		if(lenguage == "Spanish")
 		{
 			lenguage = "English"
+
 			// NAV
 
 
@@ -422,11 +429,15 @@ let lenguage = "Spanish";
 
 
 
-
-
-
 			// NAV
+
+			// HEADER
 			title1.textContent = "Luis Velásquez - Frontend Developer";
+
+			btnMore.textContent = "More ";
+			myBio.textContent = "Welcome, I am a web developer and I work particularly in the frontend area, in my spare time I like to walk and learn new skills to provide new and better services. In the page you can see some of my projects, skills and more.";
+			// HEADER
+			
 			
 		}
 		else if(lenguage == "English")
@@ -449,7 +460,8 @@ let lenguage = "Spanish";
 			// NAV
 			// HEADER
 			title1.textContent = "Luis Velásquez - Desarrollador Frontend";
-			
+			btnMore.textContent = "Más ";
+			myBio.textContent = "Bienvenido, soy un desarrollador web con conocimientos especialmente en el área del front-end, en mi tiempo libre me gusta caminar y aprender nuevas habilidades para brindar nuevos y mejores servicios. En este portafolio puedes encontar algunos de mis proyectos donde uso mis habilidades para dar un gran resultado.";
 			// HEADER
 			
 		}
