@@ -394,16 +394,24 @@ const footer = document.querySelector('.footer');
 
 // CODE TO CHANGE THE WORDS
 
-
+// HEADER
 const toggleWords = document.querySelector('#toggle-words');
 const title1 = document.querySelector('.title1');
 const btnMore = document.querySelector('.more_profie');
 const myBio = document.querySelector('.bio');
+// HEADER
 
+// NAV
 const menuLink1 = document.querySelector('.menu-link1');
 const menuLink2 = document.querySelector('.menu-link2');
 const menuLink3 = document.querySelector('.menu-link3');
 const menuLink4 = document.querySelector('.menu-link4');
+// NAV
+
+// SECTION SERVICES
+const skillTitleOfServices = document.querySelector('.skill_title');
+// SECTION SERVICES
+
 
 const skillForTitle = document.querySelector('.skill-title');
 
@@ -420,23 +428,23 @@ let lenguage = "Spanish";
 			lenguage = "English"
 
 			// NAV
-
-
 			menuLink1.textContent = "About me";
 			menuLink2.textContent = "Services";
 			menuLink3.textContent = "Portfolio";
 			menuLink4.textContent = "Contact";
-
-
-
 			// NAV
 
 			// HEADER
 			title1.textContent = "Luis Velásquez - Frontend Developer";
-
 			btnMore.textContent = "More ";
 			myBio.textContent = "Welcome, I am a web developer and I work particularly in the frontend area, in my spare time I like to walk and learn new skills to provide new and better services. In the page you can see some of my projects, skills and more.";
 			// HEADER
+
+			// SECTION SERVICES
+			skillTitleOfServices.textContent = "Skills"
+			// SECTION SERVICES
+
+			
 			
 			
 		}
@@ -454,16 +462,18 @@ let lenguage = "Spanish";
 
 
 
-
-
-
 			// NAV
+
 			// HEADER
 			title1.textContent = "Luis Velásquez - Desarrollador Frontend";
 			btnMore.textContent = "Más ";
-			myBio.textContent = "Bienvenido, soy un desarrollador web con conocimientos especialmente en el área del front-end, en mi tiempo libre me gusta caminar y aprender nuevas habilidades para brindar nuevos y mejores servicios. En este portafolio puedes encontar algunos de mis proyectos donde uso mis habilidades para dar un gran resultado.";
+			myBio.textContent = "Bienvenido, soy un desarrollador web con conocimientos en el área del front-end, en mi tiempo libre me gusta caminar y aprender nuevas habilidades para brindar nuevos y mejores servicios. En este portafolio puedes encontar algunos de mis proyectos, servicios y mas.";
 			// HEADER
-			
+
+
+			// SECTION SERVICES
+			skillTitleOfServices.textContent = "Habilidades"
+			// SECTION SERVICES
 		}
 		
 		

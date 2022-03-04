@@ -509,6 +509,32 @@ header.header-white .right .links a:not(.btn):hover {
 	}
 }
 
+.description-services {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: center;
+	background-color: var(--dark);
+	padding: 1.5rem;
+	margin-top: 50px;
+	border-radius: 5px;
+	width: 1200px;
+	max-width: 1000px;
+}
+.description-services .services_text{
+	text-align: center;
+	
+}
+.description-services .title-services{
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+  
+  
+
 
 /* serviceswhite */
 
