@@ -555,7 +555,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 .services-white {
 	padding: 4rem 0;
-	background: #626262;
+	background: #08c6ab;
 }
 
 .services-white .left h1 {
@@ -568,7 +568,7 @@ header.header-white .right .links a:not(.btn):hover {
 	width: 100%;
 	max-width: 600px;
 	padding: 0 20px;
-	background: #787879;
+	background: #7ac1f0;
 	border-radius: 5px;	
 	padding: 1.5rem;
 	
@@ -586,7 +586,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 .porcentaje-white{
 	height: 14px;
-	background: #FF3E14;
+	background: #02588a;
 	border-radius: 5px;
 	position: relative;
 	animation: animationWhite 4.5s 1;
@@ -625,12 +625,12 @@ header.header-white .right .links a:not(.btn):hover {
 		background: #8b0035;
 	}
 	50%{
-		background: #1421dc;
+		background: #aa5478;
 	}
 	
 	100%{
 		width: 100%;
-		background: #FF3E14;
+		background: #02588a;
 	}
 }
 
@@ -694,12 +694,12 @@ header.header-white .right .links a:not(.btn):hover {
 .portfolio-white .box {
 	padding: 1.25rem;
 	border-radius: 5px;
-	background: #787879;
+	background: #08c6ab;
 	color: #000;
 }
 
 .portfolio-white .box:hover h4 {
-	color: #212277;
+	color: #8a4bc5;
 }
 
 /* PORTFOLIO */
@@ -806,7 +806,7 @@ header.header-white .right .links a:not(.btn):hover {
 .contact-white .wrapper {
 	padding: 1.5rem;
 	border-radius: 10px;
-	background: #787879 ;
+	background: #7ac1f0 ;
 }
 .contact-white h2 {
 	max-width: 768px;
@@ -819,43 +819,43 @@ header.header-white .right .links a:not(.btn):hover {
 }
 .contact-white form input {
 	padding: .75rem 1rem;
-	background: #626262;
+	background: #08c6ab;
 	outline: none;
 	border: none;
 	border-radius: 5px;
 	width: 100%;
 	color: #000;
-	border-bottom: 3px solid #1B5DB2;
+	border-bottom: 3px solid #4706af;
 }
 .contact-white form input:focus{
-	border-bottom: 3px solid #002f6b;
-	background: #49494e;
+	border-bottom: 3px solid #291744;
+	background: #299787;
 }
 .contact-white form input::placeholder{
 	color: #000;
 }
 .contact-white form textarea {
 	padding: .75rem 1rem;
-	background: #626262;
+	background: #08c6ab;
 	outline: none;
 	border: none;
 	border-radius: 5px;
-	border-bottom: 3px solid #1B5DB2;
+	border-bottom: 3px solid #4706af;
 	width: 100%;
 	color: #000;
 	resize: none;
 	margin-top: 10px;
 }
 .contact-white form textarea:focus{
-	border-bottom: 3px solid #002f6b;
-	background: #49494e;
+	border-bottom: 3px solid #291744;
+	background: #299787;
 }
 .contact-white form textarea::placeholder{
 	color: #000;
 }
 .contact-white form button {
 	padding: .75rem 2rem;
-	background: #1B5DB2;
+	background: #1b5db2;
 	color: #000;
 	font-weight: 500;
 	cursor: pointer;
@@ -912,7 +912,7 @@ footer p a:hover {
 /* footerwhite */
 
 .footer-white {
-	background: #626262;
+	background: #7ac1f0;
 }
 
 .footer-white .logo {
@@ -927,7 +927,7 @@ footer p a:hover {
 	color: #000;
 }
 .footer-white p a {
-	color: #112094;
+	color: #0b17b3;
 }
 
 /* FOOTER */
