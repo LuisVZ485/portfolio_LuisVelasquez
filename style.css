@@ -515,11 +515,8 @@ header.header-white .right .links a:not(.btn):hover {
 	padding: 2rem;
 	display: grid;
 	
-	grid-template-areas: 
-	""
-	""
-	""
-	"";
+	
+	
 }
 
 .description-services {
@@ -531,6 +528,8 @@ header.header-white .right .links a:not(.btn):hover {
 	padding: 1.5rem;
 	border-radius: 5px;
 	
+	
+	
 }
 .description-services .services_text{
 	text-align: center;
@@ -539,6 +538,7 @@ header.header-white .right .links a:not(.btn):hover {
 
 .title-container{
 	margin-bottom: 20px;
+	margin: 20px;
 }
 
 .title-services{
