@@ -143,6 +143,8 @@ const abilities = document.getElementsByClassName('blocks');
 const nameOfAbilities = document.getElementsByClassName('skill-name');
 const porcent = document.getElementsByClassName('porcent');
 
+const articleServicesWhite = document.querySelector('.article-services');
+
 toggleTheme1.addEventListener('click' , function(){
 	
 	// section
@@ -154,9 +156,22 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			servicesWhite.classList.replace ("services-white", "services" );
+			servicesWhite.classList.replace("services-white", "services" );
 		}
 	}
+
+	{//article services
+
+		if(articleServicesWhite.classList.contains("article-services"))
+		{
+			articleServicesWhite.classList.replace("article-services", "article-services_white");
+		}
+		else
+		{
+			articleServicesWhite.classList.replace("article-services_white", "article-services");
+		}
+	}
+	
 
 
 	//container of skills
@@ -170,7 +185,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			abilities[0].classList.replace ("abilities-white", "abilities" );
+			abilities[0].classList.replace("abilities-white", "abilities" );
 		}
 
 		if(abilities[1].classList.contains("abilities"))
@@ -179,7 +194,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			abilities[1].classList.replace ("abilities-white", "abilities" );
+			abilities[1].classList.replace("abilities-white", "abilities" );
 		}
 
 		if(abilities[2].classList.contains("abilities"))
@@ -188,7 +203,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			abilities[2].classList.replace ("abilities-white", "abilities" );
+			abilities[2].classList.replace("abilities-white", "abilities" );
 		}
 
 		if(abilities[3].classList.contains("abilities"))
@@ -197,7 +212,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			abilities[3].classList.replace ("abilities-white", "abilities" );
+			abilities[3].classList.replace("abilities-white", "abilities" );
 		}
 
 		if(abilities[4].classList.contains("abilities"))
@@ -206,7 +221,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			abilities[4].classList.replace ("abilities-white", "abilities" );
+			abilities[4].classList.replace("abilities-white", "abilities" );
 		}
 	}
 	//blocks of abilities
@@ -224,7 +239,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			nameOfAbilities[0].classList.replace ("name__abilitie-white", "name__abilitie" );
+			nameOfAbilities[0].classList.replace("name__abilitie-white", "name__abilitie" );
 		}
 
 		if(nameOfAbilities[1].classList.contains("name__abilitie"))
@@ -233,7 +248,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			nameOfAbilities[1].classList.replace ("name__abilitie-white", "name__abilitie" );
+			nameOfAbilities[1].classList.replace("name__abilitie-white", "name__abilitie" );
 		}
 
 		if(nameOfAbilities[2].classList.contains("name__abilitie"))
@@ -242,7 +257,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			nameOfAbilities[2].classList.replace ("name__abilitie-white", "name__abilitie" );
+			nameOfAbilities[2].classList.replace("name__abilitie-white", "name__abilitie" );
 		}
 
 		if(nameOfAbilities[3].classList.contains("name__abilitie"))
@@ -251,7 +266,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			nameOfAbilities[3].classList.replace ("name__abilitie-white", "name__abilitie" );
+			nameOfAbilities[3].classList.replace("name__abilitie-white", "name__abilitie" );
 		}
 
 		if(nameOfAbilities[4].classList.contains("name__abilitie"))
@@ -260,7 +275,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			nameOfAbilities[4].classList.replace ("name__abilitie-white", "name__abilitie" );
+			nameOfAbilities[4].classList.replace("name__abilitie-white", "name__abilitie" );
 		}
 	}
 	// name skill
@@ -273,7 +288,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			porcent[0].classList.replace ("porcentaje-white", "porcentaje" );
+			porcent[0].classList.replace("porcentaje-white", "porcentaje" );
 		}
 
 		if(porcent[1].classList.contains("porcentaje"))
@@ -282,7 +297,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			porcent[1].classList.replace ("porcentaje-white", "porcentaje" );
+			porcent[1].classList.replace("porcentaje-white", "porcentaje" );
 		}
 
 		if(porcent[2].classList.contains("porcentaje"))
@@ -291,7 +306,7 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			porcent[2].classList.replace ("porcentaje-white", "porcentaje" );
+			porcent[2].classList.replace("porcentaje-white", "porcentaje" );
 		}
 
 		if(porcent[3].classList.contains("porcentaje"))
@@ -309,13 +324,19 @@ toggleTheme1.addEventListener('click' , function(){
 		}
 		else
 		{
-			porcent[4].classList.replace ("porcentaje-white", "porcentaje" );
+			porcent[4].classList.replace("porcentaje-white", "porcentaje" );
 		}
 	}
 	// porcent
 
 	// elements
+
+	
 });
+
+
+
+
 
 
 // SERVICES SECTION
