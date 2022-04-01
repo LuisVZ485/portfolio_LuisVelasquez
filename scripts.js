@@ -431,10 +431,11 @@ const menuLink4 = document.querySelector('.menu-link4');
 
 // SECTION SERVICES
 const skillTitleOfServices = document.querySelector('.skill_title');
+const titleOfAService = document.querySelector('.title-services');
+
 // SECTION SERVICES
 
 
-const skillForTitle = document.querySelector('.skill-title');
 
 let lenguage = "Spanish";
 {//words in English
@@ -456,13 +457,14 @@ let lenguage = "Spanish";
 			// NAV
 
 			// HEADER
-			title1.textContent = "Luis Velásquez - Frontend Developer";
+			title1.textContent = "Luis Velásquez - Web Developer";
 			btnMore.textContent = "More ";
 			myBio.textContent = "Welcome, I am a web developer and I work particularly in the frontend area, in my spare time I like to walk and learn new skills to provide new and better services. In the page you can see some of my projects, skills and more.";
 			// HEADER
 
 			// SECTION SERVICES
-			skillTitleOfServices.textContent = "Skills"
+			skillTitleOfServices.textContent = "Skills";
+			titleOfAService.textContent = "Services as a Frontend Developer";
 			// SECTION SERVICES
 
 			
@@ -486,7 +488,7 @@ let lenguage = "Spanish";
 			// NAV
 
 			// HEADER
-			title1.textContent = "Luis Velásquez - Desarrollador Frontend";
+			title1.textContent = "Luis Velásquez - Desarrollador Web";
 			btnMore.textContent = "Más ";
 			myBio.textContent = "Bienvenido, soy un desarrollador web con conocimientos en el área del front-end, en mi tiempo libre me gusta caminar y aprender nuevas habilidades para brindar nuevos y mejores servicios. En este portafolio puedes encontar algunos de mis proyectos, servicios y mas.";
 			// HEADER
@@ -494,6 +496,7 @@ let lenguage = "Spanish";
 
 			// SECTION SERVICES
 			skillTitleOfServices.textContent = "Habilidades"
+			titleOfAService.textContent = "Servicios como desarrollador Frontend";
 			// SECTION SERVICES
 		}
 		
