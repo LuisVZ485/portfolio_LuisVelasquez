@@ -136,7 +136,7 @@ nav .nav-menu__white li a::before {
 	background: transparent;
 }
 nav .nav-menu__white li a.active::before {
-	background: #1B5DB2;
+	background: #4f83c7;
 }
 nav .nav-menu__white li a:hover,
 nav .nav-menu__white li a.active {
@@ -300,7 +300,7 @@ header .right .links a:not(.btn):hover {
 /* headerwhite */
 
 header.header-white .left img{
-    box-shadow: 25px 10px 30px 0px #1B5DB2;
+    box-shadow: 25px 10px 30px 0px #4f83c7;
     border-radius: 15px;
 	margin-left: 100px;
 	animation: animationImgWhite 2.5s 1;
@@ -316,7 +316,7 @@ header.header-white .left img{
 	}
 	
 	100%{
-		box-shadow: 25px 10px 30px 0px #1B5DB2;
+		box-shadow: 25px 10px 30px 0px #4f83c7;
 	}
 }
 
@@ -337,7 +337,7 @@ header.header-white .right .links .btn {
 	padding: 1rem 2rem;
 	font-weight: 500;
 	color: #000;
-	background: #1B5DB2;
+	background: #4f83c7;
 	border-radius: 5px;
 	box-shadow: none;
 	transition: all .3s ease;
