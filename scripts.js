@@ -432,8 +432,24 @@ const menuLink4 = document.querySelector('.menu-link4');
 // SECTION SERVICES
 const skillTitleOfServices = document.querySelector('.skill_title');
 const titleOfAService = document.querySelector('.title-services');
+const service1 = document.querySelector('.services1');
+const service2 = document.querySelector('.services2');
 
 // SECTION SERVICES
+
+// SECTION PORTFOLIO
+titleOfPortfolio = document.querySelector('.title-portfolio');
+
+// SECTION PORTFOLIO
+
+// SECTION CONTACT
+const titleContact = document.querySelector('.title-contact')
+const email = document.querySelector('.email__input');
+const menssage = document.querySelector('.menssage');
+const sendButton = document.querySelector('.send-button')
+
+// SECTION CONTACT
+
 
 
 
@@ -465,10 +481,24 @@ let lenguage = "Spanish";
 			// SECTION SERVICES
 			skillTitleOfServices.textContent = "Skills";
 			titleOfAService.textContent = "Services as a Frontend Developer";
+			service1.textContent = "Using my skills like HTML, CSS and JavaScript I can make a website with Responsive design, adaptable from smartphones and so on, with my service I will help you to put your website in a hosting service very easy, with this, your page will be online.";
+			service2.textContent = " Using React JS I will create an amazing page using a design adaptable to all types of devices, this page will have a modern design and a fast deployment so that you can provide a good service with it, in the same way I will give you the necessary instructions so that upload your new page to a hosting service ideal for this";
+
 			// SECTION SERVICES
 
-			
-			
+			// SECTION PORTFOLIO
+			titleOfPortfolio.textContent = "Check my projects";
+
+			// SECTION PORTFOLIO
+
+			// SECTION CONTACT
+			titleContact.textContent = "Have a good plan? Send me your menssage";
+			email.placeholder = "Email address";
+			menssage.placeholder = "Menssage";
+			sendButton.textContent = "Send";
+
+			// SECTION CONTACT
+
 			
 		}
 		else if(lenguage == "English")
@@ -497,7 +527,26 @@ let lenguage = "Spanish";
 			// SECTION SERVICES
 			skillTitleOfServices.textContent = "Habilidades"
 			titleOfAService.textContent = "Servicios como desarrollador Frontend";
+			service1.textContent = "Usando habilidades como HTML, CSS y JavaScript puedo hacer una pagina web con un diseño Responsive para que pueda adaptarse a dispositivos moviles y otros, con mi servicio lo acompañare y le dare las indicaciones nesesarias para que pueda subir su pagina a un servicio de hosting, con el cual su pagina se podra visualizar a través de internet. ";
+			service2.textContent = "Mediante el uso de React js creare una asombrosa pagina usando un diseño adaptable a todo tipo de dispositivos, esta pagina tendra un diseño moderno y un despliege rapido para que pueda brindar un buen servicio con esta, de igual manera lo daré las indicaciónes nesesarias para que pueda subir su nueva pagina a un servicio de hosting ideal para esta";
+
 			// SECTION SERVICES
+
+			// SECTION PORTFOLIO
+			titleOfPortfolio.textContent = "Proyectos";
+
+
+
+			// SECTION PORTFOLIO
+
+			// SECTION CONTACT
+			titleContact.textContent = "¿Tienes una gran idea? Envíame un mensaje";
+			email.placeholder = "Dirección de correo";
+			menssage.placeholder = "Mensaje";
+			sendButton.textContent = "Enviar";
+
+			// SECTION CONTACT
+
 		}
 		
 		
