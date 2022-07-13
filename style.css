@@ -454,7 +454,8 @@ header.header-white .right .links a:not(.btn):hover {
 	font-weight: 700;
 	color: var(--white);
 	text-transform: uppercase;
-	margin: 20px 0px;
+	margin: 32px 0px;
+	margin-top: 6px;
 }
 
 .progress__bar{
