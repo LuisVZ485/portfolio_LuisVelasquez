@@ -41,6 +41,47 @@ li {
 	height: 100%;
 }
 
+h1::selection{
+	color: #fffafa;
+	background-color: #4a44a0;
+}
+h2::selection{
+	color: #fffafa;
+	background-color: #4a44a0;
+}
+h3::selection{
+	color: #fffafa;
+	background-color: #4a44a0;
+}
+h4::selection{
+	color: #fffafa;
+	background-color: #4a44a0;
+}
+p::selection{
+	color: #fffafa;
+	background-color: #4a44a0;
+}
+a::selection{
+	color: #fffafa;
+	background-color: #ffffff00;
+}
+img::selection{
+	
+	background-color: #ffffff00;
+}
+button::selection{
+	
+	background-color: #ffffff00;
+}
+div::selection{
+	
+	background-color: #ffffff00;
+}
+
+.language::selection{
+	color: #fffafa;
+	background-color: #ffffff00;
+}
 
 
 
@@ -149,14 +190,15 @@ nav .nav-menu__white li a.active {
 nav .toggle-menu {
 	cursor: pointer;
 	color: var(--white);
-	font-size: 1.25rem;
+	font-size: 2rem;
+	
 	display: none;
 }
 
 nav .toggle-menu__white {
 	cursor: pointer;
 	color: #000;
-	font-size: 1.25rem;
+	font-size: 2rem;
 	display: none;
 }
 
@@ -196,14 +238,6 @@ nav.white{
 	
 }
 
-svg{
-	color: white;
-	height: 40px;
-}
-
-path {
-	fill: currentColor !important;
-}
 
 
 
@@ -372,6 +406,19 @@ header.header-white .right .links a:not(.btn) {
 header.header-white .right .links a:not(.btn):hover {
 	color: #1B5DB2;
 }
+
+svg{
+	color: white;
+	height: 40px;
+}
+svg:hover{
+	color: var(--green);
+}
+
+path {
+	fill: currentColor !important;
+}
+
 
 
 /* HEADER */
@@ -1105,14 +1152,14 @@ footer p a:hover {
 	nav .toggle-menu {
 		cursor: pointer;
 		color: var(--white);
-		font-size: 1.25rem;
+		font-size: 2rem;
 		
 	}
 	
 	nav .toggle-menu__white {
 		cursor: pointer;
 		color: black;
-		font-size: 1.25rem;
+		font-size: 2rem;
 		
 	}
 
