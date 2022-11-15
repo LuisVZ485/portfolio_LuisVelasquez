@@ -196,6 +196,15 @@ nav.white{
 	
 }
 
+svg{
+	color: white;
+	height: 40px;
+}
+
+path {
+	fill: currentColor !important;
+}
+
 
 
 nav #toggle-words {
