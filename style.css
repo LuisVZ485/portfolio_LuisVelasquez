@@ -72,7 +72,7 @@ nav .logo-White {
 	color: black;
 	margin-right: auto;
 }
-.lenguage{
+.language{
 	cursor: pointer;
 }
 
@@ -183,6 +183,7 @@ nav.white{
 .toggle-theme{
 	cursor: pointer;
 	margin-right: 20px;
+	margin-left: 10px;
 	padding: 10px;
 	height: 38px;
 	width: 40px;
@@ -191,17 +192,22 @@ nav.white{
 
 .toggle-theme___icon{
 	color: var(--white);
+	padding-right: 20px;
+	
 }
+
+
 
 nav #toggle-words {
 	height: 4rem;
 	display: flex;
 	margin-right: 20px;
+	padding-right: 20px;
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	transition: all .3s ease;
-	font-size: .875rem;
+	font-size: .780rem;
 	font-weight: 500;
 }
 /* NAVBAR */
@@ -1038,6 +1044,26 @@ footer p a:hover {
 @media screen and (max-width: 768px) {
 	.container {
 		max-width: 576px;
+	}
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+	nav {
+		font-size: .750rem;
+
+	}
+	nav .nav-menu{
+		grid-gap: 1.8rem;
+	}
+	nav #toggle-words {
+		height: 3.5rem;
+		
+		margin-right: 0px;
+		padding-right: 30px;
+		
+		transition: all .3s ease;
+		font-size: .750rem;
+		font-weight: 500;
 	}
 }
 
