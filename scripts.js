@@ -481,7 +481,7 @@ let lenguage = "Spanish";
 			// SECTION SERVICES
 			skillTitleOfServices.textContent = "Skills";
 			titleOfAService.textContent = "Services as a Frontend Developer";
-			service1.textContent = "Using my skills like HTML, CSS and JavaScript I can make a website with Responsive design, adaptable from smartphones and so on, with my service I will help you to put your website in a hosting service very easy, with this, your page will be online.";
+			service1.textContent = "Build or redesign a full WordPress website";
 			service2.textContent = " Using React JS I will create an amazing page using a design adaptable to all types of devices, this page will have a modern design and a fast deployment so that you can provide a good service with it, in the same way I will give you the necessary instructions so that upload your new page to a hosting service ideal for this";
 
 			// SECTION SERVICES
@@ -527,7 +527,7 @@ let lenguage = "Spanish";
 			// SECTION SERVICES
 			skillTitleOfServices.textContent = "Habilidades"
 			titleOfAService.textContent = "Servicios como desarrollador Frontend";
-			service1.textContent = "Usando habilidades como HTML, CSS y JavaScript puedo hacer una pagina web con un diseño Responsive para que pueda adaptarse a dispositivos moviles y otros, con mi servicio lo acompañare y le dare las indicaciones nesesarias para que pueda subir su pagina a un servicio de hosting, con el cual su pagina se podra visualizar a través de internet. ";
+			service1.textContent = "Crear o rediseñar un sitio web completo en WordPress";
 			service2.textContent = "Mediante el uso de React js creare una asombrosa pagina usando un diseño adaptable a todo tipo de dispositivos, esta pagina tendra un diseño moderno y un despliege rapido para que pueda brindar un buen servicio con esta, de igual manera lo daré las indicaciónes nesesarias para que pueda subir su nueva pagina a un servicio de hosting ideal para esta";
 
 			// SECTION SERVICES

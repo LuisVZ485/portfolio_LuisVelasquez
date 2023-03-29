@@ -501,6 +501,8 @@ path {
 	grid-gap: .75rem;
 } */
 
+
+
 .abilities{
 	width: 100%;
 	max-width: 600px;
@@ -589,8 +591,9 @@ path {
 	display: flex;
 	width: 100%;
 	margin-bottom: 20px;
-	
-	background-color: var(--dark);
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(15px);
 	padding: 1.5rem;
 	border-radius: 5px;
 	
@@ -599,7 +602,32 @@ path {
 }
 .description-services .services_text{
 	text-align: center;
+	
 	color: var(--white);
+}
+
+.service-included{
+	text-align: center;
+	color: var(--white);
+	font-size: 12px;
+}
+
+.link-services_fiverr{
+	padding-top: 8px; padding-left: 15px; padding-right: 15px; padding-bottom: 8px;
+	font-weight: 400;
+	color: var(--white);
+	background: #03996c;
+	border-radius: 5px;
+	box-shadow: none;
+	transition: all .3s ease;
+	margin-top: 20px;
+	max-width: 2000px;
+	min-width: 50px;
+	align-self: center;
+}
+.link-services_fiverr:hover{
+	
+	background: #007250;
 }
 
 .title-container{
