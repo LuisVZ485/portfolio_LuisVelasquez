@@ -432,8 +432,14 @@ const menuLink4 = document.querySelector('.menu-link4');
 // SECTION SERVICES
 const skillTitleOfServices = document.querySelector('.skill_title');
 const titleOfAService = document.querySelector('.title-services');
+const linkServices = document.getElementsByClassName('link-services_fiverr');
 const service1 = document.querySelector('.services1');
 const service2 = document.querySelector('.services2');
+const service3 = document.querySelector('.services3');
+const service4 = document.querySelector('.services4');
+const service5 = document.querySelector('.services5');
+const service6 = document.querySelector('.services6');
+
 
 // SECTION SERVICES
 
@@ -446,7 +452,7 @@ titleOfPortfolio = document.querySelector('.title-portfolio');
 const titleContact = document.querySelector('.title-contact')
 const email = document.querySelector('.email__input');
 const menssage = document.querySelector('.menssage');
-const sendButton = document.querySelector('.send-button')
+const sendButton = document.querySelector('.send-button');
 
 // SECTION CONTACT
 
@@ -480,14 +486,24 @@ let lenguage = "Spanish";
 
 			// SECTION SERVICES
 			skillTitleOfServices.textContent = "Skills";
-			titleOfAService.textContent = "Services as a Frontend Developer";
+			titleOfAService.textContent = "Services";
+			linkServices[0].textContent= "More";
+			linkServices[1].textContent= "More";
+			linkServices[2].textContent= "More";
+			linkServices[3].textContent= "More";
+			linkServices[4].textContent= "More";
+			linkServices[5].textContent= "More";
 			service1.textContent = "Build or redesign a full WordPress website";
-			service2.textContent = " Using React JS I will create an amazing page using a design adaptable to all types of devices, this page will have a modern design and a fast deployment so that you can provide a good service with it, in the same way I will give you the necessary instructions so that upload your new page to a hosting service ideal for this";
+			service2.textContent = "Develop an e-commerce with WordPress";
+			service3.textContent = "Redesign or customize your WordPress website"
+			service4.textContent = "Remove the background of your images svg, jpg and png format"
+			service5.textContent = "Build a full website with Weebly"
+			service6.textContent = "Design a premium business PowerPoint presentation";
 
 			// SECTION SERVICES
 
 			// SECTION PORTFOLIO
-			titleOfPortfolio.textContent = "Check my projects";
+			titleOfPortfolio.textContent = "Portfolio";
 
 			// SECTION PORTFOLIO
 
@@ -526,14 +542,24 @@ let lenguage = "Spanish";
 
 			// SECTION SERVICES
 			skillTitleOfServices.textContent = "Habilidades"
-			titleOfAService.textContent = "Servicios como desarrollador Frontend";
+			titleOfAService.textContent = "Servicios";
+			linkServices[0].textContent= "Mas";
+			linkServices[1].textContent= "Mas";
+			linkServices[2].textContent= "Mas";
+			linkServices[3].textContent= "Mas";
+			linkServices[4].textContent= "Mas";
+			linkServices[5].textContent= "Mas";
 			service1.textContent = "Crear o rediseñar un sitio web completo en WordPress";
-			service2.textContent = "Mediante el uso de React js creare una asombrosa pagina usando un diseño adaptable a todo tipo de dispositivos, esta pagina tendra un diseño moderno y un despliege rapido para que pueda brindar un buen servicio con esta, de igual manera lo daré las indicaciónes nesesarias para que pueda subir su nueva pagina a un servicio de hosting ideal para esta";
+			service2.textContent = "Crear una tienda en linea con WordPress";
+			service3.textContent= "Rediseñar sitio web con WordPress";
+			service4.textContent= "Remover figuras de imágenes y quitar fondos";
+			service5.textContent= "Crear un sitio web con Weebly";
+			service6.textContent = "Diseñar una presentación premium con PowerPoint";
 
 			// SECTION SERVICES
 
 			// SECTION PORTFOLIO
-			titleOfPortfolio.textContent = "Proyectos";
+			titleOfPortfolio.textContent = "Portafolio";
 
 
 
