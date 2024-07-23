@@ -59,7 +59,7 @@ h4::selection{
 }
 p::selection{
 	color: #fffafa;
-	background-color: #4a44a0;
+	background-color: #1a17425e;
 }
 a::selection{
 	color: #fffafa;
@@ -398,8 +398,13 @@ header.header-white .right .links .btn:active {
 	background: linear-gradient(to bottom, #1B5DB2, #103b74);
 	box-shadow: 0 0px 24px var(--green);
 }
+header.header-white .right .links svg{
+	color: #000000;
+	font-size: 1.25rem;
+	transition: all .3s ease;
+}
 header.header-white .right .links a:not(.btn) {
-	color: #000;
+	color: #000 !important;
 	font-size: 1.25rem;
 	transition: all .3s ease;
 }
@@ -675,7 +680,7 @@ path {
 	width: 100%;
 	max-width: 600px;
 	padding: 0 20px;
-	background: #587f8f;
+	background: #c4cbe1;
 	border-radius: 5px;	
 	padding: 1.5rem;
 	
@@ -693,7 +698,7 @@ path {
 
 .porcentaje-white{
 	height: 14px;
-	background: #5f4c6b;
+	background: #124c97;
 	border-radius: 5px;
 	position: relative;
 	animation: animationWhite 4.5s 1;
@@ -737,7 +742,7 @@ path {
 	
 	100%{
 		width: 100%;
-		background: #5f4c6b;
+		background: #124c97;
 	}
 }
 
@@ -754,7 +759,7 @@ path {
 	display: flex;
 	width: 100%;
 	margin-bottom: 20px;
-	background-color: #587f8f;
+	background-color: #c4cbe1;
 	padding: 1.5rem;
 	border-radius: 5px;
 	
@@ -766,7 +771,23 @@ path {
 	color: #000;
 }
 
-
+.article-services_white .link-services_fiverr{
+	padding-top: 6px; padding-left: 15px; padding-right: 15px; padding-bottom: 6px;
+	font-weight: 400;
+	color: #000;
+	background: #1B5DB2;
+	border-radius: 5px;
+	box-shadow: none;
+	transition: all .3s ease;
+	margin-top: 20px;
+	max-width: 2000px;
+	min-width: 50px;
+	align-self: center;
+}
+.article-services_white .link-services_fiverr:hover{
+	
+	background: #124c97;
+}
 
 .article-services_white .title-services{
 	text-align: center;
@@ -966,10 +987,10 @@ path {
 	border-radius: 5px;
 	width: 100%;
 	color: #000;
-	border-bottom: 3px solid #443261;
+	border-bottom: 3px solid #c4cbe1;
 }
 .contact-white form input:focus{
-	border-bottom: 3px solid #291744;
+	border-bottom: 3px solid #8d92a3;
 	background: #236083;
 }
 .contact-white form input::placeholder{
@@ -981,14 +1002,14 @@ path {
 	outline: none;
 	border: none;
 	border-radius: 5px;
-	border-bottom: 3px solid #443261;
+	border-bottom: 3px solid #c4cbe1;
 	width: 100%;
 	color: #000;
 	resize: none;
 	margin-top: 10px;
 }
 .contact-white form textarea:focus{
-	border-bottom: 3px solid #291744;
+	border-bottom: 3px solid #8d92a3;
 	background: #236083;
 }
 .contact-white form textarea::placeholder{

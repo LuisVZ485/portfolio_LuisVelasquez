@@ -223,6 +223,24 @@ toggleTheme1.addEventListener('click' , function(){
 		{
 			abilities[4].classList.replace("abilities-white", "abilities" );
 		}
+
+		if(abilities[5].classList.contains("abilities"))
+		{
+			abilities[5].classList.replace("abilities", "abilities-white");
+		}
+		else
+		{
+			abilities[5].classList.replace("abilities-white", "abilities" );
+		}
+
+		if(abilities[6].classList.contains("abilities"))
+		{
+			abilities[6].classList.replace("abilities", "abilities-white");
+		}
+		else
+		{
+			abilities[6].classList.replace("abilities-white", "abilities" );
+		}
 	}
 	//blocks of abilities
 
@@ -277,6 +295,24 @@ toggleTheme1.addEventListener('click' , function(){
 		{
 			nameOfAbilities[4].classList.replace("name__abilitie-white", "name__abilitie" );
 		}
+
+		if(nameOfAbilities[5].classList.contains("name__abilitie"))
+		{
+			nameOfAbilities[5].classList.replace("name__abilitie", "name__abilitie-white");
+		}
+		else
+		{
+			nameOfAbilities[5].classList.replace("name__abilitie-white", "name__abilitie" );
+		}
+
+		if(nameOfAbilities[6].classList.contains("name__abilitie"))
+		{
+			nameOfAbilities[6].classList.replace("name__abilitie", "name__abilitie-white");
+		}
+		else
+		{
+			nameOfAbilities[6].classList.replace("name__abilitie-white", "name__abilitie" );
+		}
 	}
 	// name skill
 
@@ -325,6 +361,24 @@ toggleTheme1.addEventListener('click' , function(){
 		else
 		{
 			porcent[4].classList.replace("porcentaje-white", "porcentaje" );
+		}
+
+		if(porcent[5].classList.contains("porcentaje"))
+		{
+			porcent[5].classList.replace("porcentaje", "porcentaje-white");
+		}
+		else
+		{
+			porcent[5].classList.replace ("porcentaje-white", "porcentaje" );
+		}
+
+		if(porcent[6].classList.contains("porcentaje"))
+		{
+			porcent[6].classList.replace("porcentaje", "porcentaje-white");
+		}
+		else
+		{
+			porcent[6].classList.replace("porcentaje-white", "porcentaje" );
 		}
 	}
 	// porcent
@@ -439,6 +493,7 @@ const service3 = document.querySelector('.services3');
 const service4 = document.querySelector('.services4');
 const service5 = document.querySelector('.services5');
 const service6 = document.querySelector('.services6');
+const service7 = document.querySelector('.services7');
 
 
 // SECTION SERVICES
@@ -493,12 +548,14 @@ let lenguage = "Spanish";
 			linkServices[3].textContent= "More";
 			linkServices[4].textContent= "More";
 			linkServices[5].textContent= "More";
+			linkServices[6].textContent= "More";
 			service1.textContent = "Build or redesign a full WordPress website";
 			service2.textContent = "Develop an e-commerce with WordPress";
 			service3.textContent = "Redesign or customize your WordPress website"
 			service4.textContent = "Remove the background of your images svg, jpg and png format"
 			service5.textContent = "Build a full website with Weebly"
 			service6.textContent = "Design a premium business PowerPoint presentation";
+			service7.textContent = "Build a banner ad";
 
 			// SECTION SERVICES
 
@@ -549,12 +606,14 @@ let lenguage = "Spanish";
 			linkServices[3].textContent= "Mas";
 			linkServices[4].textContent= "Mas";
 			linkServices[5].textContent= "Mas";
+			linkServices[6].textContent= "Mas";
 			service1.textContent = "Crear o rediseñar un sitio web completo en WordPress";
 			service2.textContent = "Crear una tienda en linea con WordPress";
 			service3.textContent= "Rediseñar sitio web con WordPress";
 			service4.textContent= "Remover figuras de imágenes y quitar fondos";
 			service5.textContent= "Crear un sitio web con Weebly";
 			service6.textContent = "Diseñar una presentación premium con PowerPoint";
+			service7.textContent = "Crear un banner publicitario";
 
 			// SECTION SERVICES
 
